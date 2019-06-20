@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "F:/代码/我的项目/KeMengUtils/KeMengUtils",
+  "source_base_path": "F:/代码/我的项目/KeMengUtils/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.RegexHelper.CommonRegexs.html",
-          "hash": "qy59JvKt5dcggE5AZhgpKA=="
+          "hash": "TIIl9JA0HhDrkx6t/WraIw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,31 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.RegexHelper.html",
-          "hash": "8N4IIFVO6Wt+6nFfYE+1HA=="
+          "hash": "zkxlv29qRKPAFwJrLcyEJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.StringHelper.StringConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.StringHelper.StringConvert.html",
+          "hash": "9bZ84Q93OoqKfMI1jVneyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.StringHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.StringHelper.html",
+          "hash": "n3838dYjqR/2T8JQxpuMAA=="
         }
       },
       "is_incremental": false,
@@ -33,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "IWSb6B/6lGYRPQ4WhMFrGQ=="
+          "hash": "IonmcbVJkyNzW5ZtTcJJTw=="
         }
       },
       "is_incremental": false,
@@ -45,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/OES1xy1o+KCP78p2DJQMA=="
+          "hash": "HYwo3X6KPXh1gN7UhOVuAw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "rs1irL+HV8NufRRXbxieJQ=="
+          "hash": "bcTPg+uhS+XfhW7IeUi3BQ=="
         }
       },
       "is_incremental": false,
@@ -81,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "FUJGjKBJkYavPfU1emnzFg=="
+          "hash": "bRShHdcjEabMAvZbeuAuPg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "e2iZDAkRl9vvWA6fSFeotQ=="
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
         }
       },
       "is_incremental": false,
@@ -118,16 +142,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
           "skipped_file_count": 0
         }
       }

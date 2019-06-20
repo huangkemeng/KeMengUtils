@@ -65,3 +65,28 @@ references:
   isSpec: "True"
   fullName: KeMengUtils.RegexHelper.CommonRegexs.OnlyNumberBetweenMN
   nameWithType: CommonRegexs.OnlyNumberBetweenMN
+- uid: KeMengUtils.StringHelper
+  name: KeMengUtils.StringHelper
+  href: api/KeMengUtils.StringHelper.html
+  commentId: N:KeMengUtils.StringHelper
+  fullName: KeMengUtils.StringHelper
+  nameWithType: KeMengUtils.StringHelper
+- uid: KeMengUtils.StringHelper.StringConvert
+  name: StringConvert
+  href: api/KeMengUtils.StringHelper.StringConvert.html
+  commentId: T:KeMengUtils.StringHelper.StringConvert
+  fullName: KeMengUtils.StringHelper.StringConvert
+  nameWithType: StringConvert
+- uid: KeMengUtils.StringHelper.StringConvert.ToInt32(System.String)
+  name: ToInt32(String)
+  href: api/KeMengUtils.StringHelper.StringConvert.html#KeMengUtils_StringHelper_StringConvert_ToInt32_System_String_
+  commentId: M:KeMengUtils.StringHelper.StringConvert.ToInt32(System.String)
+  fullName: KeMengUtils.StringHelper.StringConvert.ToInt32(System.String)
+  nameWithType: StringConvert.ToInt32(String)
+- uid: KeMengUtils.StringHelper.StringConvert.ToInt32*
+  name: ToInt32
+  href: api/KeMengUtils.StringHelper.StringConvert.html#KeMengUtils_StringHelper_StringConvert_ToInt32_
+  commentId: Overload:KeMengUtils.StringHelper.StringConvert.ToInt32
+  isSpec: "True"
+  fullName: KeMengUtils.StringHelper.StringConvert.ToInt32
+  nameWithType: StringConvert.ToInt32

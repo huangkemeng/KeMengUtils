@@ -6,7 +6,7 @@
           "files": [
             "**.csproj"
           ],
-          "src": "F:\\代码\\我的项目\\KeMengUtils\\KeMengUtils"
+          "src": "../KeMengUtils"
         }
       ],
       "dest": "api",
@@ -46,14 +46,16 @@
         "exclude": [
           "obj/**",
           "_site/**",
-          "docs/**"
+          "./**"
         ]
       }
     ],
-    "dest": "../docs",
+    "dest": "./",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [ "default", "material/material" ],
+    "template": [
+      "default"
+    ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
