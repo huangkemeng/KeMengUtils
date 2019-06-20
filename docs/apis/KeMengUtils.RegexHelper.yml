@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: KeMengUtils.RegexHelper
+  commentId: N:KeMengUtils.RegexHelper
+  id: KeMengUtils.RegexHelper
+  children:
+  - KeMengUtils.RegexHelper.CommonRegexs
+  langs:
+  - csharp
+  - vb
+  name: KeMengUtils.RegexHelper
+  nameWithType: KeMengUtils.RegexHelper
+  fullName: KeMengUtils.RegexHelper
+  type: Namespace
+  assemblies:
+  - KeMengUtils
+references:
+- uid: KeMengUtils.RegexHelper.CommonRegexs
+  commentId: T:KeMengUtils.RegexHelper.CommonRegexs
+  name: CommonRegexs
+  nameWithType: CommonRegexs
+  fullName: KeMengUtils.RegexHelper.CommonRegexs

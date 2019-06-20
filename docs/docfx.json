@@ -9,7 +9,7 @@
           "src": "../KeMengUtils"
         }
       ],
-      "dest": "api",
+      "dest": "apis",
       "disableGitFeatures": false,
       "disableDefaultFilter": false
     }
