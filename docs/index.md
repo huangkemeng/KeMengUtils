@@ -1,4 +1,5 @@
-# This is the **HOMEPAGE**.
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-## Quick Start Notes:
-1. Add images to the *images* folder if the file is referencing an image.
+# KeMengUtils Docs
+	1. [Github Project](https://github.com/huangkemeng/KeMengUtils)
+	2. [Author's Home Page](https://i-tech.tech)
+	3. [Nuget Package](https://www.nuget.org/packages/KeMeng.Utils/)
+	4. Please click ¡®Api Docs¡¯ menu,you will open a new world gate!
