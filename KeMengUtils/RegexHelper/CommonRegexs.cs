@@ -43,7 +43,7 @@ namespace KeMengUtils.RegexHelper
         /// <returns></returns>
         public static Regex OnlyNumberBetweenMN(int m, int n)
         {
-            return new Regex(@"^\d{" + m + "," + "n" + "}$");
+            return new Regex(@"^\d{" + m + "," + n + "}$");
         }
     }
 }

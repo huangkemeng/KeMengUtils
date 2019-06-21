@@ -10,4 +10,9 @@
     <PackageId>KeMeng.Utils</PackageId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+    <PackageReference Include="Qiniu.Shared" Version="7.2.15" />
+  </ItemGroup>
+
 </Project>
