@@ -1,0 +1,1354 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DTHelper
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DTHelper
+   ">
+    <meta name="generator" content="docfx 2.43.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="KeMengUtils.DataHelper.DTHelper">
+  
+  
+  <h1 id="KeMengUtils_DataHelper_DTHelper" data-uid="KeMengUtils.DataHelper.DTHelper" class="text-break">Class DTHelper
+  </h1>
+  <div class="markdown level0 summary"><p>DataTable帮助类</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DTHelper</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KeMengUtils.DataHelper.html">KeMengUtils.DataHelper</a></h6>
+  <h6><strong>Assembly</strong>: KeMengUtils.dll</h6>
+  <h5 id="KeMengUtils_DataHelper_DTHelper_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DTHelper</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_AddManyRows_" data-uid="KeMengUtils.DataHelper.DTHelper.AddManyRows*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_AddManyRows_System_Data_DataTable_System_Collections_Generic_IEnumerable_System_Collections_Generic_Dictionary_System_String_System_Object___" data-uid="KeMengUtils.DataHelper.DTHelper.AddManyRows(System.Data.DataTable,System.Collections.Generic.IEnumerable{System.Collections.Generic.Dictionary{System.String,System.Object}})">AddManyRows(DataTable, IEnumerable&lt;Dictionary&lt;String, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>新增多行数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddManyRows(this DataTable dt, IEnumerable&lt;Dictionary&lt;string, object&gt;&gt; dics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">dics</span></td>
+        <td><p>数据字典</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_AddManyRows_" data-uid="KeMengUtils.DataHelper.DTHelper.AddManyRows*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_AddManyRows_System_Data_DataTable_System_Collections_Generic_IEnumerable_System_Data_DataRow__" data-uid="KeMengUtils.DataHelper.DTHelper.AddManyRows(System.Data.DataTable,System.Collections.Generic.IEnumerable{System.Data.DataRow})">AddManyRows(DataTable, IEnumerable&lt;DataRow&gt;)</h4>
+  <div class="markdown level1 summary"><p>添加多行数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddManyRows(this DataTable dt, IEnumerable&lt;DataRow&gt; rows)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.DataRow</span>&gt;</td>
+        <td><span class="parametername">rows</span></td>
+        <td><p>DataRow</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_AddNewRow_" data-uid="KeMengUtils.DataHelper.DTHelper.AddNewRow*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_AddNewRow_System_Data_DataTable_System_Collections_Generic_Dictionary_System_String_System_Object__System_Data_DataRow_" data-uid="KeMengUtils.DataHelper.DTHelper.AddNewRow(System.Data.DataTable,System.Collections.Generic.Dictionary{System.String,System.Object},System.Data.DataRow)">AddNewRow(DataTable, Dictionary&lt;String, Object&gt;, DataRow)</h4>
+  <div class="markdown level1 summary"><p>新增一行数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewRow(this DataTable dt, Dictionary&lt;string, object&gt; dic = null, DataRow clone_dr = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>表</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">dic</span></td>
+        <td><p>键值对</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Data.DataRow</span></td>
+        <td><span class="parametername">clone_dr</span></td>
+        <td><p>复制的行</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_ColumnsAsEnumerable_" data-uid="KeMengUtils.DataHelper.DTHelper.ColumnsAsEnumerable*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_ColumnsAsEnumerable_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.ColumnsAsEnumerable(System.Data.DataTable)">ColumnsAsEnumerable(DataTable)</h4>
+  <div class="markdown level1 summary"><p>以可枚举的方式返回列集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DataColumn&gt; ColumnsAsEnumerable(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.DataColumn</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_CreateColumns_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateColumns*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_CreateColumns_System_Data_DataTable_System_String___" data-uid="KeMengUtils.DataHelper.DTHelper.CreateColumns(System.Data.DataTable,System.String[])">CreateColumns(DataTable, String[])</h4>
+  <div class="markdown level1 summary"><p>根据列名集合创建多个列</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void CreateColumns(this DataTable dt, string[] col_names)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">col_names</span></td>
+        <td><p>列名集合</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_CreateManyRows_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateManyRows*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_CreateManyRows_System_Data_DataTable_System_Collections_Generic_IEnumerable_System_Collections_Generic_Dictionary_System_String_System_Object___" data-uid="KeMengUtils.DataHelper.DTHelper.CreateManyRows(System.Data.DataTable,System.Collections.Generic.IEnumerable{System.Collections.Generic.Dictionary{System.String,System.Object}})">CreateManyRows(DataTable, IEnumerable&lt;Dictionary&lt;String, Object&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>创建多行数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DataRow&gt; CreateManyRows(this DataTable dt, IEnumerable&lt;Dictionary&lt;string, object&gt;&gt; dics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>表</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;&gt;</td>
+        <td><span class="parametername">dics</span></td>
+        <td><p>行</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.DataRow</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_CreateNewRow_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateNewRow*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_CreateNewRow_System_Data_DataTable_System_Collections_Generic_Dictionary_System_String_System_Object__" data-uid="KeMengUtils.DataHelper.DTHelper.CreateNewRow(System.Data.DataTable,System.Collections.Generic.Dictionary{System.String,System.Object})">CreateNewRow(DataTable, Dictionary&lt;String, Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>创建一行数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DataRow CreateNewRow(this DataTable dt, Dictionary&lt;string, object&gt; dic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">dic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataRow</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_CreateSqlBySourceTb_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateSqlBySourceTb*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_CreateSqlBySourceTb_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateSqlBySourceTb(System.Data.DataTable)">CreateSqlBySourceTb(DataTable)</h4>
+  <div class="markdown level1 summary"><p>用于创建临时表时，生成一个跟原DataTable列名一模一样的临时表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateSqlBySourceTb(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_CreateSqlColumnsString_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateSqlColumnsString*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_CreateSqlColumnsString_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.CreateSqlColumnsString(System.Data.DataTable)">CreateSqlColumnsString(DataTable)</h4>
+  <div class="markdown level1 summary"><p>用于创建临时表时，生成一个由原表映射得到的列名的临时表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string CreateSqlColumnsString(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_GetColumns_" data-uid="KeMengUtils.DataHelper.DTHelper.GetColumns*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_GetColumns_System_String___" data-uid="KeMengUtils.DataHelper.DTHelper.GetColumns(System.String[])">GetColumns(String[])</h4>
+  <div class="markdown level1 summary"><p>根据列名集合获取列集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;DataColumn&gt; GetColumns(this string[] col_names)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">col_names</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Data.DataColumn</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_GetCSharpDataType_" data-uid="KeMengUtils.DataHelper.DTHelper.GetCSharpDataType*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_GetCSharpDataType_System_Data_SqlDbType_" data-uid="KeMengUtils.DataHelper.DTHelper.GetCSharpDataType(System.Data.SqlDbType)">GetCSharpDataType(SqlDbType)</h4>
+  <div class="markdown level1 summary"><p>将SqlServer中的数据类型映射csharp中的数据类型名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetCSharpDataType(this SqlDbType dtype)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.SqlDbType</span></td>
+        <td><span class="parametername">dtype</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_GetSqlDataType_" data-uid="KeMengUtils.DataHelper.DTHelper.GetSqlDataType*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_GetSqlDataType_System_Data_DataColumn_" data-uid="KeMengUtils.DataHelper.DTHelper.GetSqlDataType(System.Data.DataColumn)">GetSqlDataType(DataColumn)</h4>
+  <div class="markdown level1 summary"><p>将某列的数据类型对应SqlServer中的数据类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetSqlDataType(this DataColumn dc)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataColumn</span></td>
+        <td><span class="parametername">dc</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_GetTempDbName_" data-uid="KeMengUtils.DataHelper.DTHelper.GetTempDbName*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_GetTempDbName_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.GetTempDbName(System.Data.DataTable)">GetTempDbName(DataTable)</h4>
+  <div class="markdown level1 summary"><p>读取临时表名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetTempDbName(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_IsEmpty_" data-uid="KeMengUtils.DataHelper.DTHelper.IsEmpty*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_IsEmpty_System_Data_DataTable_System_Action_" data-uid="KeMengUtils.DataHelper.DTHelper.IsEmpty(System.Data.DataTable,System.Action)">IsEmpty(DataTable, Action)</h4>
+  <div class="markdown level1 summary"><p>判断是否为空表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsEmpty(this DataTable dt, Action callback = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>表</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span></td>
+        <td><span class="parametername">callback</span></td>
+        <td><p>回调方法</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_MappingDic_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingDic*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_MappingDic_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingDic(System.Data.DataTable)">MappingDic(DataTable)</h4>
+  <div class="markdown level1 summary"><p>表字段和数据库字段的对应关系集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Dictionary&lt;string, string&gt; MappingDic(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_MappingSourceColumns_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingSourceColumns*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_MappingSourceColumns_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingSourceColumns(System.Data.DataTable)">MappingSourceColumns(DataTable)</h4>
+  <div class="markdown level1 summary"><p>获取表字段集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; MappingSourceColumns(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_MappingTargetColumns_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingTargetColumns*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_MappingTargetColumns_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingTargetColumns(System.Data.DataTable)">MappingTargetColumns(DataTable)</h4>
+  <div class="markdown level1 summary"><p>获取数据库字段集合</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; MappingTargetColumns(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_MappingValue_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingValue*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_MappingValue_System_Data_DataRow_System_String_" data-uid="KeMengUtils.DataHelper.DTHelper.MappingValue(System.Data.DataRow,System.String)">MappingValue(DataRow, String)</h4>
+  <div class="markdown level1 summary"><p>通过数据库字段名，获取表中的某行某列的值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object MappingValue(this DataRow dr, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataRow</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>行</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_NotContainColumns_" data-uid="KeMengUtils.DataHelper.DTHelper.NotContainColumns*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_NotContainColumns_System_Data_DataTable_System_Collections_Generic_IEnumerable_System_String__" data-uid="KeMengUtils.DataHelper.DTHelper.NotContainColumns(System.Data.DataTable,System.Collections.Generic.IEnumerable{System.String})">NotContainColumns(DataTable, IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>判断表格是否包含某些列名，返回不包含的列名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; NotContainColumns(this DataTable dt, IEnumerable&lt;string&gt; cols = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">cols</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_SetMapping_" data-uid="KeMengUtils.DataHelper.DTHelper.SetMapping*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_SetMapping_System_Data_DataTable_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="KeMengUtils.DataHelper.DTHelper.SetMapping(System.Data.DataTable,System.Collections.Generic.Dictionary{System.String,System.String})">SetMapping(DataTable, Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>表字段映射到数据库字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMapping(this DataTable dt, Dictionary&lt;string, string&gt; dic)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">dic</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_SetMappingValue_" data-uid="KeMengUtils.DataHelper.DTHelper.SetMappingValue*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_SetMappingValue_System_Data_DataRow_System_String_System_Object_" data-uid="KeMengUtils.DataHelper.DTHelper.SetMappingValue(System.Data.DataRow,System.String,System.Object)">SetMappingValue(DataRow, String, Object)</h4>
+  <div class="markdown level1 summary"><p>通过数据库字段名，设置原表的值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetMappingValue(this DataRow dr, string db_field, object value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataRow</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">db_field</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_SetTempDbName_" data-uid="KeMengUtils.DataHelper.DTHelper.SetTempDbName*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_SetTempDbName_System_Data_DataTable_System_String_" data-uid="KeMengUtils.DataHelper.DTHelper.SetTempDbName(System.Data.DataTable,System.String)">SetTempDbName(DataTable, String)</h4>
+  <div class="markdown level1 summary"><p>设置临时表名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void SetTempDbName(this DataTable dt, string table_name = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>临时表名</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">table_name</span></td>
+        <td><p>表名</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_SourceColumn_" data-uid="KeMengUtils.DataHelper.DTHelper.SourceColumn*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_SourceColumn_System_Data_DataTable_System_String_" data-uid="KeMengUtils.DataHelper.DTHelper.SourceColumn(System.Data.DataTable,System.String)">SourceColumn(DataTable, String)</h4>
+  <div class="markdown level1 summary"><p>通过数据库字段获取表字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string SourceColumn(this DataTable dt, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>数据库字段</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_TargetColumn_" data-uid="KeMengUtils.DataHelper.DTHelper.TargetColumn*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_TargetColumn_System_Data_DataTable_System_String_" data-uid="KeMengUtils.DataHelper.DTHelper.TargetColumn(System.Data.DataTable,System.String)">TargetColumn(DataTable, String)</h4>
+  <div class="markdown level1 summary"><p>通过表字段获取数据库字段</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TargetColumn(this DataTable dt, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p>表</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>表字段</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_toDateTime_" data-uid="KeMengUtils.DataHelper.DTHelper.toDateTime*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_toDateTime_System_Object_" data-uid="KeMengUtils.DataHelper.DTHelper.toDateTime(System.Object)">toDateTime(Object)</h4>
+  <div class="markdown level1 summary"><p>转成可空的DateTime类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime? toDateTime(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_toDecimal_" data-uid="KeMengUtils.DataHelper.DTHelper.toDecimal*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_toDecimal_System_Object_" data-uid="KeMengUtils.DataHelper.DTHelper.toDecimal(System.Object)">toDecimal(Object)</h4>
+  <div class="markdown level1 summary"><p>转成可空的Decimal类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal? toDecimal(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_toInt32_" data-uid="KeMengUtils.DataHelper.DTHelper.toInt32*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_toInt32_System_Object_" data-uid="KeMengUtils.DataHelper.DTHelper.toInt32(System.Object)">toInt32(Object)</h4>
+  <div class="markdown level1 summary"><p>转成可空的Int类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int? toInt32(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_DTHelper_Value_" data-uid="KeMengUtils.DataHelper.DTHelper.Value*"></a>
+  <h4 id="KeMengUtils_DataHelper_DTHelper_Value_System_Data_DataRow_System_String_" data-uid="KeMengUtils.DataHelper.DTHelper.Value(System.Data.DataRow,System.String)">Value(DataRow, String)</h4>
+  <div class="markdown level1 summary"><p>直接返回原值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object Value(this DataRow dr, string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataRow</span></td>
+        <td><span class="parametername">dr</span></td>
+        <td><p>行</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>值</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
