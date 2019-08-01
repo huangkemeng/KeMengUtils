@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class LocationInfo
+    <title>Class StringIsNotTartgetFormatException
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class LocationInfo
+    <meta name="title" content="Class StringIsNotTartgetFormatException
    ">
     <meta name="generator" content="docfx 2.43.1.0">
     
@@ -68,21 +68,65 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo">
+            <article class="content wrap" id="_content" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException">
   
   
-  <h1 id="KeMengUtils_LocationHelper_Models_LocationInfo" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo" class="text-break">Class LocationInfo
+  <h1 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException" class="text-break">Class StringIsNotTartgetFormatException
   </h1>
-  <div class="markdown level0 summary"><p>位置信息</p>
-</div>
+  <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">LocationInfo</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><span class="xref">System.ApplicationException</span></div>
+    <div class="level3"><span class="xref">StringIsNotTartgetFormatException</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.Runtime.Serialization.ISerializable</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Exception.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetBaseException()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Data</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HelpLink</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.HResult</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.InnerException</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Message</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.Source</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.StackTrace</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.TargetSite</span>
+    </div>
+    <div>
+      <span class="xref">System.Exception.SerializeObjectState</span>
+    </div>
     <div>
       <span class="xref">System.Object.Equals(System.Object)</span>
     </div>
@@ -93,130 +137,142 @@
       <span class="xref">System.Object.GetHashCode()</span>
     </div>
     <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
       <span class="xref">System.Object.MemberwiseClone()</span>
     </div>
     <div>
       <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
     </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="KeMengUtils.LocationHelper.Models.html">KeMengUtils.LocationHelper.Models</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KeMengUtils.ThrowEx.html">KeMengUtils.ThrowEx</a></h6>
   <h6><strong>Assembly</strong>: KeMengUtils.dll</h6>
-  <h5 id="KeMengUtils_LocationHelper_Models_LocationInfo_syntax">Syntax</h5>
+  <h5 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class LocationInfo</code></pre>
+    <pre><code class="lang-csharp hljs">public class StringIsNotTartgetFormatException : ApplicationException, ISerializable</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="KeMengUtils_LocationHelper_Models_LocationInfo_approximate_addr_" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.approximate_addr*"></a>
-  <h4 id="KeMengUtils_LocationHelper_Models_LocationInfo_approximate_addr" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.approximate_addr">approximate_addr</h4>
-  <div class="markdown level1 summary"><p>近似地址</p>
-</div>
+  <a id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor*"></a>
+  <h4 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_String_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String)">StringIsNotTartgetFormatException(String)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string approximate_addr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StringIsNotTartgetFormatException(string msg)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">msg</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="KeMengUtils_LocationHelper_Models_LocationInfo_detailed_addr_" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.detailed_addr*"></a>
-  <h4 id="KeMengUtils_LocationHelper_Models_LocationInfo_detailed_addr" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.detailed_addr">detailed_addr</h4>
-  <div class="markdown level1 summary"><p>详细地址</p>
-</div>
+  <a id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor*"></a>
+  <h4 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_String_System_Exception_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String,System.Exception)">StringIsNotTartgetFormatException(String, Exception)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string detailed_addr { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StringIsNotTartgetFormatException(string msg, Exception innerException)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">msg</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">innerException</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="KeMengUtils_LocationHelper_Models_LocationInfo_lat_" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.lat*"></a>
-  <h4 id="KeMengUtils_LocationHelper_Models_LocationInfo_lat" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.lat">lat</h4>
-  <div class="markdown level1 summary"><p>纬度</p>
-</div>
+  <a id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor*"></a>
+  <h4 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_Type_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type)">StringIsNotTartgetFormatException(Type)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? lat { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StringIsNotTartgetFormatException(Type type)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="KeMengUtils_LocationHelper_Models_LocationInfo_lng_" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.lng*"></a>
-  <h4 id="KeMengUtils_LocationHelper_Models_LocationInfo_lng" data-uid="KeMengUtils.LocationHelper.Models.LocationInfo.lng">lng</h4>
-  <div class="markdown level1 summary"><p>经度</p>
-</div>
+  <a id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor*"></a>
+  <h4 id="KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_Type_System_Exception_" data-uid="KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type,System.Exception)">StringIsNotTartgetFormatException(Type, Exception)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal? lng { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StringIsNotTartgetFormatException(Type type, Exception innerException)</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td><span class="xref">System.Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">innerException</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.Runtime.Serialization.ISerializable</span>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNull_System_Object_">TypeConvert.IsNull(Object)</a>
@@ -237,6 +293,9 @@
       <a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDouble__1___0_">TypeConvert.ToDouble&lt;T&gt;(T)</a>
   </div>
   <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_GetInnermostException_System_Exception_">TypeConvert.GetInnermostException(Exception)</a>
+  </div>
+  <div>
       <a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJsonString__1___0_System_Boolean_">TypeConvert.ToJsonString&lt;T&gt;(T, Boolean)</a>
   </div>
   <div>
@@ -250,9 +309,6 @@
   </div>
   <div>
       <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toDateTime_System_Object_">DTHelper.toDateTime(Object)</a>
-  </div>
-  <div>
-      <a class="xref" href="KeMengUtils.LocationHelper.LocationService.html#KeMengUtils_LocationHelper_LocationService_GetDetailedLocation_KeMengUtils_LocationHelper_Models_LocationInfo_System_String_System_String_">LocationService.GetDetailedLocation(LocationInfo, String, String)</a>
   </div>
 </article>
           </div>

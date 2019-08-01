@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeMengUtils", "KeMengUtils\KeMengUtils.csproj", "{08FA73F8-E630-4423-9797-2499BD8CAD98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeMengUtilsDoc", "KeMengUtilsDoc\KeMengUtilsDoc.csproj", "{FBEF21BC-F860-4818-8CDE-33C729F1767C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeMengUtilsDoc", "KeMengUtilsDoc\KeMengUtilsDoc.csproj", "{FBEF21BC-F860-4818-8CDE-33C729F1767C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeMengUtils.Test", "KeMengUtils.Test\KeMengUtils.Test.csproj", "{662F60F7-BC2A-4E61-B6B9-45F526E1949E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FBEF21BC-F860-4818-8CDE-33C729F1767C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBEF21BC-F860-4818-8CDE-33C729F1767C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBEF21BC-F860-4818-8CDE-33C729F1767C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{662F60F7-BC2A-4E61-B6B9-45F526E1949E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{662F60F7-BC2A-4E61-B6B9-45F526E1949E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{662F60F7-BC2A-4E61-B6B9-45F526E1949E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{662F60F7-BC2A-4E61-B6B9-45F526E1949E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

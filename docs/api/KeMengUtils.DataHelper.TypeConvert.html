@@ -1,0 +1,2030 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TypeConvert
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TypeConvert
+   ">
+    <meta name="generator" content="docfx 2.43.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="KeMengUtils.DataHelper.TypeConvert">
+  
+  
+  <h1 id="KeMengUtils_DataHelper_TypeConvert" data-uid="KeMengUtils.DataHelper.TypeConvert" class="text-break">Class TypeConvert
+  </h1>
+  <div class="markdown level0 summary"><p>基础数据拓展类</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">TypeConvert</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KeMengUtils.DataHelper.html">KeMengUtils.DataHelper</a></h6>
+  <h6><strong>Assembly</strong>: KeMengUtils.dll</h6>
+  <h5 id="KeMengUtils_DataHelper_TypeConvert_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class TypeConvert</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_AddParam_" data-uid="KeMengUtils.DataHelper.TypeConvert.AddParam*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_AddParam_System_String_System_Linq_Expressions_Expression_System_Func_System_String___" data-uid="KeMengUtils.DataHelper.TypeConvert.AddParam(System.String,System.Linq.Expressions.Expression{System.Func{System.String}})">AddParam(String, Expression&lt;Func&lt;String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>给url添加参数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string AddParam(this string url, Expression&lt;Func&lt;string&gt;&gt; Expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p><span class="xref">System.String</span>url</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">Expression</span></td>
+        <td><p><span class="xref">System.Linq.Expressions.Expression&lt;TDelegate&gt;</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>添加参数后的Url</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ConvertToString_" data-uid="KeMengUtils.DataHelper.TypeConvert.ConvertToString*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ConvertToString__1___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.ConvertToString``1(``0)">ConvertToString&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>将一个对象转成String</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ConvertToString&lt;T&gt;(this T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>具体的类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>转换后的string对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_GetInnermostException_" data-uid="KeMengUtils.DataHelper.TypeConvert.GetInnermostException*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_GetInnermostException_System_Exception_" data-uid="KeMengUtils.DataHelper.TypeConvert.GetInnermostException(System.Exception)">GetInnermostException(Exception)</h4>
+  <div class="markdown level1 summary"><p>获取最内部的异常</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Exception GetInnermostException(this Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p><span class="xref">System.Exception</span>当前异常</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><p><span class="xref">System.Exception</span>最内部异常</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThen*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})">IfNotNullThen(String, Func&lt;Boolean&gt;, Func&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>判断字符串是否不为空（或null）并返回其他判断</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IfNotNullThen(this string current_string, Func&lt;bool&gt; ifnotnull_expression, Func&lt;bool&gt; ifnull_expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p><span class="xref">System.String</span>字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">ifnotnull_expression</span></td>
+        <td><p><span class="xref">System.Func&lt;TResult&gt;</span>当字符串不为空进行时的其他判断</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">ifnull_expression</span></td>
+        <td><p><span class="xref">System.Func&lt;TResult&gt;</span>当字符串为空进行时的其他判断</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThen*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_System_String_System_String_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.String,System.String)">IfNotNullThen(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>字符串不为空则返回的字符串<a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThen_System_String_System_String_System_String_">IfNullThen(String, String, String)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;&#19968;&#20010;&#20887;&#20313;&#26041;&#27861;&#65292;&#20063;&#21487;&#20197;&#20351;&#29992;IfNullThen&quot;)]
+public static string IfNotNullThen(this string current_string, string ifnotnull_string, string ifnull_string = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ifnotnull_string</span></td>
+        <td><p><span class="xref">System.String</span>如果不为空则返回的字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ifnull_string</span></td>
+        <td><p><span class="xref">System.String</span>如果为空则返回的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>结果字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThenEqualWith_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNotNullThenEqualWith_System_String_System_String_System_Boolean_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith(System.String,System.String,System.Boolean)">IfNotNullThenEqualWith(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>判断字符串是否不为空(或null)并和其他字符串比较</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IfNotNullThenEqualWith(this string current_string, string other_string, bool ifnull_expression = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">other_string</span></td>
+        <td><p><span class="xref">System.String</span>如果字符串不为空（或null）要比较的字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ifnull_expression</span></td>
+        <td><p><span class="xref">System.Boolean</span>如果字符串为空，则返回布尔结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>比较的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNullThen_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThen*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})">IfNullThen(String, Func&lt;Boolean&gt;, Func&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>判断字符串是否为空（或null）并返回其他判断</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IfNullThen(this string current_string, Func&lt;bool&gt; ifnull_expression, Func&lt;bool&gt; ifnotnull_expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">ifnull_expression</span></td>
+        <td><p><span class="xref">System.Func&lt;TResult&gt;</span>当字符串为空进行时的其他判断</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">ifnotnull_expression</span></td>
+        <td><p><span class="xref">System.Func&lt;TResult&gt;</span>当字符串不为空进行时的其他判断</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNullThen_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThen*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNullThen_System_String_System_String_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.String,System.String)">IfNullThen(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>字符串为空则返回其他字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string IfNullThen(this string current_string, string ifnull_string, string ifnotnull_string = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p>字符串<span class="xref">System.String</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ifnull_string</span></td>
+        <td><p><span class="xref">System.String</span>如果为空则返回的字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">ifnotnull_string</span></td>
+        <td><p><span class="xref">System.String</span>如果不为空则返回的字符串（默认返回当前字符串）</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>结果字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IfNullThenEqualWith_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IfNullThenEqualWith_System_String_System_String_System_Boolean_" data-uid="KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith(System.String,System.String,System.Boolean)">IfNullThenEqualWith(String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>判断字符串是否为空(或null)并和其他字符串比较</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IfNullThenEqualWith(this string current_string, string other_string, bool ifnotnull_expression = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">current_string</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">other_string</span></td>
+        <td><p><span class="xref">System.String</span>如果当前字符串为null(或空)，和哪个字符串比较</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ifnotnull_expression</span></td>
+        <td><p><span class="xref">System.String</span>如果字符串不为空，返回的结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>比较的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsDateTime_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsDateTime*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsDateTime_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsDateTime(System.String)">IsDateTime(String)</h4>
+  <div class="markdown level1 summary"><p>判断是否是日期</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsDateTime(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>日期字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsInt32_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsInt32*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsInt32_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsInt32(System.String)">IsInt32(String)</h4>
+  <div class="markdown level1 summary"><p>判断字符串是否可以转10进制整数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInt32(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNotNull_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNotNull*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNotNull_System_Object_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNotNull(System.Object)">IsNotNull(Object)</h4>
+  <div class="markdown level1 summary"><p>判断对象是否不为null<a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNull_System_Object_">IsNull(Object)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;&#19968;&#20010;&#20887;&#20313;&#30340;&#25193;&#23637;&#26041;&#27861;&#65292;IsNull&#26041;&#27861;&#30340;&#19968;&#20010;&#21462;&#21453;&#32780;&#24050;&quot;)]
+public static bool IsNotNull(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>对象<span class="xref">System.Object</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span><span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNotNullOrWhite_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNotNullOrWhite_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite(System.String)">IsNotNullOrWhite(String)</h4>
+  <div class="markdown level1 summary"><p>字符串是否不全为空格或null<a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrWhite_System_String_">IsNullOrWhite(String)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;&#19968;&#20010;&#20887;&#20313;&#30340;&#26041;&#27861;&#65292;&#21487;&#29992;IsNullOrWhite&#26367;&#20195;&quot;)]
+public static bool IsNotNullOrWhite(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>用于判断的字符串<span class="xref">System.String</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNull_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNull*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNull_System_Collections_Generic_IEnumerable_System_String__" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNull(System.Collections.Generic.IEnumerable{System.String})">IsNull(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p><a class="xref" href="KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_System_Collections_Generic_IEnumerable_System_String__">IsNullOrEmpty(IEnumerable&lt;String&gt;)</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;&#35831;&#20351;&#29992;&#26032;&#26041;&#27861;IsNullOrEmpty&quot;)]
+public static bool IsNull(this IEnumerable&lt;string&gt; current_strings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">current_strings</span></td>
+        <td><p>字符串集合</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNull_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNull*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNull_System_Object_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNull(System.Object)">IsNull(Object)</h4>
+  <div class="markdown level1 summary"><p>判断对象是否为null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNull(this object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>对象<span class="xref">System.Object</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_System_Collections_Generic_IEnumerable_System_String__" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(System.Collections.Generic.IEnumerable{System.String})">IsNullOrEmpty(IEnumerable&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>判断数据集对象是否为null或集合个数为0个</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty(this IEnumerable&lt;string&gt; current_strings)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">current_strings</span></td>
+        <td><p>字符串集合</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty__1_System_Collections_Generic_IEnumerable___0__" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})">IsNullOrEmpty&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>判断泛型集是否为null或集合个数为0个</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrEmpty&lt;T&gt;(this IEnumerable&lt;T&gt; current_objects)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">current_objects</span></td>
+        <td><p>泛型集</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">System.Boolean</span>判断结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>具体的对象类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNullOrWhite_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNullOrWhite_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite(System.String)">IsNullOrWhite(String)</h4>
+  <div class="markdown level1 summary"><p>字符串是否全为空格或null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsNullOrWhite(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>用于判断的字符串<span class="xref">System.String</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_IsNullThen_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullThen*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_IsNullThen__1_System_String___0___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.IsNullThen``1(System.String,``0,``0)">IsNullThen&lt;T&gt;(String, T, T)</h4>
+  <div class="markdown level1 summary"><p>字符串为空则返回指定类型的结果</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T IsNullThen&lt;T&gt;(this string str, T ifnull_result, T ifnotnull_result)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>字符串<span class="xref">System.String</span></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">ifnull_result</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>如果字符串为空则返回的结果</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">ifnotnull_result</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>如果字符串不为空则返回的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>传入的具体类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ObjectsIsNull_" data-uid="KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ObjectsIsNull_System_Object___" data-uid="KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull(System.Object[])">ObjectsIsNull(Object[])</h4>
+  <div class="markdown level1 summary"><p>对象是否全部为null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ObjectsIsNull(params object[] obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span>[]</td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>对象<span class="xref">System.Object</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_StringsIsNullOrWhite_" data-uid="KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_StringsIsNullOrWhite_System_String___" data-uid="KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite(System.String[])">StringsIsNullOrWhite(String[])</h4>
+  <div class="markdown level1 summary"><p>一组字符串是否全部为（null或空格）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StringsIsNullOrWhite(params string[] str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td><span class="parametername">str</span></td>
+        <td><p>用于判断的字符串数组<span class="xref">System.String</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>判断结果<span class="xref">System.Boolean</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToDateTime_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDateTime*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToDateTime_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDateTime(System.String)">ToDateTime(String)</h4>
+  <div class="markdown level1 summary"><p>字符串转换为日期时</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime ToDateTime(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>表示日期的字符串<span class="xref">System.String</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><p>转换后的日期，转换失败则返回日期1970/1/1<span class="xref">System.DateTime</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToDecimal_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDecimal*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToDecimal__1___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDecimal``1(``0)">ToDecimal&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>将一个泛型对象转换成decimal类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ToDecimal&lt;T&gt;(this T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>这里传入具体的类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Decimal</span></td>
+        <td><p><span class="xref">System.Decimal</span>转换后的decim对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToDouble_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDouble*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToDouble__1___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToDouble``1(``0)">ToDouble&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>转成Double类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double ToDouble&lt;T&gt;(this T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>需要转换的对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p><span class="xref">System.Double</span>转换后的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToInt32_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToInt32*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToInt32__1___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToInt32``1(``0)">ToInt32&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>转换为的10进制数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ToInt32&lt;T&gt;(this T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p><code data-dev-comment-type="typeparamref" class="typeparamref">T</code>要转换的对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p><span class="xref">System.Int32</span>10进制数</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToJArray_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJArray*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToJArray_System_Data_DataTable_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJArray(System.Data.DataTable)">ToJArray(DataTable)</h4>
+  <div class="markdown level1 summary"><p>DataTable转换成Jarray</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JArray ToJArray(this DataTable dt)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.DataTable</span></td>
+        <td><span class="parametername">dt</span></td>
+        <td><p><span class="xref">System.Data.DataTable</span>DataTable 表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Linq.JArray</span></td>
+        <td><p><span class="xref">Newtonsoft.Json.Linq.JArray</span>jarray结果集</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToJArray_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJArray*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToJArray__1_System_Collections_Generic_IEnumerable___0__" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJArray``1(System.Collections.Generic.IEnumerable{``0})">ToJArray&lt;T&gt;(IEnumerable&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>转换成JArray类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JArray ToJArray&lt;T&gt;(this IEnumerable&lt;T&gt; list)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;T&gt;</td>
+        <td><span class="parametername">list</span></td>
+        <td><p>List集合</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Linq.JArray</span></td>
+        <td><p><span class="xref">Newtonsoft.Json.Linq.JArray</span>jarray结果集</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>原类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToJObject_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJObject*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToJObject__1___0_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJObject``1(``0)">ToJObject&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>转换成JObject类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static JObject ToJObject&lt;T&gt;(this T t)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">t</span></td>
+        <td><p>对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Newtonsoft.Json.Linq.JObject</span></td>
+        <td><p><span class="xref">Newtonsoft.Json.Linq.JObject</span>JObject对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToJsonString_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJsonString*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToJsonString__1___0_System_Boolean_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToJsonString``1(``0,System.Boolean)">ToJsonString&lt;T&gt;(T, Boolean)</h4>
+  <div class="markdown level1 summary"><p>转换成Json字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToJsonString&lt;T&gt;(this T obj, bool ignore_null_exceptions = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>原对象</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ignore_null_exceptions</span></td>
+        <td><p><span class="xref">System.Boolean</span>是否忽略异常</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>json字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>泛型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToLowerUpgraded_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToLowerUpgraded_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded(System.String)">ToLowerUpgraded(String)</h4>
+  <div class="markdown level1 summary"><p>字符串转小写升级版，null不会报错，而是返回null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToLowerUpgraded(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>全部为小写的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToObject_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToObject*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToObject__1_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToObject``1(System.String)">ToObject&lt;T&gt;(String)</h4>
+  <div class="markdown level1 summary"><p>转换成Json字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ToObject&lt;T&gt;(this string json_string)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">json_string</span></td>
+        <td><p>Json字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p><span class="xref">System.String</span>json字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>将要转换的类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_ToUpperUpgraded_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_ToUpperUpgraded_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded(System.String)">ToUpperUpgraded(String)</h4>
+  <div class="markdown level1 summary"><p>字符串转大写升级版，null不会报错，而是返回null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToUpperUpgraded(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>全部为大写的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_TrimUpgraded_" data-uid="KeMengUtils.DataHelper.TypeConvert.TrimUpgraded*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_TrimUpgraded_System_String_System_Char_" data-uid="KeMengUtils.DataHelper.TypeConvert.TrimUpgraded(System.String,System.Char)">TrimUpgraded(String, Char)</h4>
+  <div class="markdown level1 summary"><p>去前后字符/空格升级版，null不会报错,而是返回null</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string TrimUpgraded(this string str, char char_of_trim = ' ')</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>当前字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">char_of_trim</span></td>
+        <td><p><span class="xref">System.Char</span>去除的字符（不传则去前后空格）</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>去字符/空格后的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_UrlDecode_" data-uid="KeMengUtils.DataHelper.TypeConvert.UrlDecode*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_UrlDecode_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.UrlDecode(System.String)">UrlDecode(String)</h4>
+  <div class="markdown level1 summary"><p>解码字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UrlDecode(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>Url编码过的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>解码后的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_UrlEncode_" data-uid="KeMengUtils.DataHelper.TypeConvert.UrlEncode*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_UrlEncode_System_String_" data-uid="KeMengUtils.DataHelper.TypeConvert.UrlEncode(System.String)">UrlEncode(String)</h4>
+  <div class="markdown level1 summary"><p>编码字符串</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string UrlEncode(this string str)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p><span class="xref">System.String</span>需要Url编码的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span>编码后的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_DataHelper_TypeConvert_VariableName_" data-uid="KeMengUtils.DataHelper.TypeConvert.VariableName*"></a>
+  <h4 id="KeMengUtils_DataHelper_TypeConvert_VariableName_System_Linq_Expressions_Expression_System_Func_System_String___" data-uid="KeMengUtils.DataHelper.TypeConvert.VariableName(System.Linq.Expressions.Expression{System.Func{System.String}})">VariableName(Expression&lt;Func&lt;String&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>获取一个字符串变量的变量名</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string VariableName(this Expression&lt;Func&lt;string&gt;&gt; Expression)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Linq.Expressions.Expression</span>&lt;<span class="xref">System.Func</span>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td><span class="parametername">Expression</span></td>
+        <td><p><span class="xref">System.Linq.Expressions.MemberExpression</span>成员表达式</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p><span class="xref">System.String</span></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

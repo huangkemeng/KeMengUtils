@@ -7,401 +7,38 @@ references:
   commentId: N:KeMengUtils.DataHelper
   fullName: KeMengUtils.DataHelper
   nameWithType: KeMengUtils.DataHelper
-- uid: KeMengUtils.DataHelper.BasicDataExtends
-  name: BasicDataExtends
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html
-  commentId: T:KeMengUtils.DataHelper.BasicDataExtends
-  fullName: KeMengUtils.DataHelper.BasicDataExtends
-  nameWithType: BasicDataExtends
-- uid: KeMengUtils.DataHelper.BasicDataExtends.AddParam(System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
-  name: AddParam(String, Expression<Func<String>>)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_AddParam_System_String_System_Linq_Expressions_Expression_System_Func_System_String___
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.AddParam(System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
-  name.vb: AddParam(String, Expression(Of Func(Of String)))
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.AddParam(System.String, System.Linq.Expressions.Expression<System.Func<System.String>>)
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.AddParam(System.String, System.Linq.Expressions.Expression(Of System.Func(Of System.String)))
-  nameWithType: BasicDataExtends.AddParam(String, Expression<Func<String>>)
-  nameWithType.vb: BasicDataExtends.AddParam(String, Expression(Of Func(Of String)))
-- uid: KeMengUtils.DataHelper.BasicDataExtends.AddParam*
-  name: AddParam
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_AddParam_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.AddParam
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.AddParam
-  nameWithType: BasicDataExtends.AddParam
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
-  name: IfNotNullThen(String, Func<Boolean>, Func<Boolean>)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNotNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
-  name.vb: IfNotNullThen(String, Func(Of Boolean), Func(Of Boolean))
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String, System.Func<System.Boolean>, System.Func<System.Boolean>)
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String, System.Func(Of System.Boolean), System.Func(Of System.Boolean))
-  nameWithType: BasicDataExtends.IfNotNullThen(String, Func<Boolean>, Func<Boolean>)
-  nameWithType.vb: BasicDataExtends.IfNotNullThen(String, Func(Of Boolean), Func(Of Boolean))
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String,System.String,System.String)
-  name: IfNotNullThen(String, String, String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNotNullThen_System_String_System_String_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String,System.String,System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen(System.String, System.String, System.String)
-  nameWithType: BasicDataExtends.IfNotNullThen(String, String, String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen*
-  name: IfNotNullThen
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNotNullThen_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThen
-  nameWithType: BasicDataExtends.IfNotNullThen
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith(System.String,System.String,System.Boolean)
-  name: IfNotNullThenEqualWith(String, String, Boolean)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNotNullThenEqualWith_System_String_System_String_System_Boolean_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith(System.String,System.String,System.Boolean)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith(System.String, System.String, System.Boolean)
-  nameWithType: BasicDataExtends.IfNotNullThenEqualWith(String, String, Boolean)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith*
-  name: IfNotNullThenEqualWith
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNotNullThenEqualWith_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNotNullThenEqualWith
-  nameWithType: BasicDataExtends.IfNotNullThenEqualWith
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
-  name: IfNullThen(String, Func<Boolean>, Func<Boolean>)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
-  name.vb: IfNullThen(String, Func(Of Boolean), Func(Of Boolean))
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String, System.Func<System.Boolean>, System.Func<System.Boolean>)
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String, System.Func(Of System.Boolean), System.Func(Of System.Boolean))
-  nameWithType: BasicDataExtends.IfNullThen(String, Func<Boolean>, Func<Boolean>)
-  nameWithType.vb: BasicDataExtends.IfNullThen(String, Func(Of Boolean), Func(Of Boolean))
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String,System.String,System.String)
-  name: IfNullThen(String, String, String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNullThen_System_String_System_String_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String,System.String,System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen(System.String, System.String, System.String)
-  nameWithType: BasicDataExtends.IfNullThen(String, String, String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen*
-  name: IfNullThen
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNullThen_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IfNullThen
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNullThen
-  nameWithType: BasicDataExtends.IfNullThen
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith(System.String,System.String,System.Boolean)
-  name: IfNullThenEqualWith(String, String, Boolean)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNullThenEqualWith_System_String_System_String_System_Boolean_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith(System.String,System.String,System.Boolean)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith(System.String, System.String, System.Boolean)
-  nameWithType: BasicDataExtends.IfNullThenEqualWith(String, String, Boolean)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith*
-  name: IfNullThenEqualWith
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IfNullThenEqualWith_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IfNullThenEqualWith
-  nameWithType: BasicDataExtends.IfNullThenEqualWith
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsDateTime(System.String)
-  name: IsDateTime(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsDateTime_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsDateTime(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsDateTime(System.String)
-  nameWithType: BasicDataExtends.IsDateTime(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsDateTime*
-  name: IsDateTime
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsDateTime_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsDateTime
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsDateTime
-  nameWithType: BasicDataExtends.IsDateTime
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsInt32(System.String)
-  name: IsInt32(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsInt32_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsInt32(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsInt32(System.String)
-  nameWithType: BasicDataExtends.IsInt32(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsInt32*
-  name: IsInt32
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsInt32_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsInt32
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsInt32
-  nameWithType: BasicDataExtends.IsInt32
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNotNull(System.Object)
-  name: IsNotNull(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNotNull_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNotNull(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNotNull(System.Object)
-  nameWithType: BasicDataExtends.IsNotNull(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNotNull*
-  name: IsNotNull
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNotNull_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsNotNull
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNotNull
-  nameWithType: BasicDataExtends.IsNotNull
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite(System.String)
-  name: IsNotNullOrWhite(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNotNullOrWhite_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite(System.String)
-  nameWithType: BasicDataExtends.IsNotNullOrWhite(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite*
-  name: IsNotNullOrWhite
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNotNullOrWhite_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNotNullOrWhite
-  nameWithType: BasicDataExtends.IsNotNullOrWhite
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Collections.Generic.IEnumerable{System.String})
-  name: IsNull(IEnumerable<String>)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNull_System_Collections_Generic_IEnumerable_System_String__
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Collections.Generic.IEnumerable{System.String})
-  name.vb: IsNull(IEnumerable(Of String))
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Collections.Generic.IEnumerable<System.String>)
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Collections.Generic.IEnumerable(Of System.String))
-  nameWithType: BasicDataExtends.IsNull(IEnumerable<String>)
-  nameWithType.vb: BasicDataExtends.IsNull(IEnumerable(Of String))
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Object)
-  name: IsNull(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNull_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNull(System.Object)
-  nameWithType: BasicDataExtends.IsNull(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNull*
-  name: IsNull
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNull_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsNull
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNull
-  nameWithType: BasicDataExtends.IsNull
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite(System.String)
-  name: IsNullOrWhite(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNullOrWhite_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite(System.String)
-  nameWithType: BasicDataExtends.IsNullOrWhite(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite*
-  name: IsNullOrWhite
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNullOrWhite_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNullOrWhite
-  nameWithType: BasicDataExtends.IsNullOrWhite
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNullThen*
-  name: IsNullThen
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNullThen_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.IsNullThen
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNullThen
-  nameWithType: BasicDataExtends.IsNullThen
-- uid: KeMengUtils.DataHelper.BasicDataExtends.IsNullThen``1(System.String,``0,``0)
-  name: IsNullThen<T>(String, T, T)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_IsNullThen__1_System_String___0___0_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.IsNullThen``1(System.String,``0,``0)
-  name.vb: IsNullThen(Of T)(String, T, T)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.IsNullThen<T>(System.String, T, T)
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.IsNullThen(Of T)(System.String, T, T)
-  nameWithType: BasicDataExtends.IsNullThen<T>(String, T, T)
-  nameWithType.vb: BasicDataExtends.IsNullThen(Of T)(String, T, T)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull(System.Object[])
-  name: ObjectsIsNull(Object[])
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ObjectsIsNull_System_Object___
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull(System.Object[])
-  name.vb: ObjectsIsNull(Object())
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull(System.Object[])
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull(System.Object())
-  nameWithType: BasicDataExtends.ObjectsIsNull(Object[])
-  nameWithType.vb: BasicDataExtends.ObjectsIsNull(Object())
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull*
-  name: ObjectsIsNull
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ObjectsIsNull_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ObjectsIsNull
-  nameWithType: BasicDataExtends.ObjectsIsNull
-- uid: KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite(System.String[])
-  name: StringsIsNullOrWhite(String[])
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_StringsIsNullOrWhite_System_String___
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite(System.String[])
-  name.vb: StringsIsNullOrWhite(String())
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite(System.String[])
-  fullName.vb: KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite(System.String())
-  nameWithType: BasicDataExtends.StringsIsNullOrWhite(String[])
-  nameWithType.vb: BasicDataExtends.StringsIsNullOrWhite(String())
-- uid: KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite*
-  name: StringsIsNullOrWhite
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_StringsIsNullOrWhite_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.StringsIsNullOrWhite
-  nameWithType: BasicDataExtends.StringsIsNullOrWhite
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDateTime(System.String)
-  name: ToDateTime(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDateTime_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToDateTime(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDateTime(System.String)
-  nameWithType: BasicDataExtends.ToDateTime(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDateTime*
-  name: ToDateTime
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDateTime_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToDateTime
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDateTime
-  nameWithType: BasicDataExtends.ToDateTime
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDecimal(System.Object)
-  name: ToDecimal(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDecimal_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToDecimal(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDecimal(System.Object)
-  nameWithType: BasicDataExtends.ToDecimal(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDecimal*
-  name: ToDecimal
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDecimal_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToDecimal
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDecimal
-  nameWithType: BasicDataExtends.ToDecimal
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDouble(System.Object)
-  name: ToDouble(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDouble_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToDouble(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDouble(System.Object)
-  nameWithType: BasicDataExtends.ToDouble(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToDouble*
-  name: ToDouble
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToDouble_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToDouble
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToDouble
-  nameWithType: BasicDataExtends.ToDouble
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToInt32(System.Object)
-  name: ToInt32(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToInt32_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToInt32(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToInt32(System.Object)
-  nameWithType: BasicDataExtends.ToInt32(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToInt32*
-  name: ToInt32
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToInt32_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToInt32
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToInt32
-  nameWithType: BasicDataExtends.ToInt32
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded(System.String)
-  name: ToLowerUpgraded(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToLowerUpgraded_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded(System.String)
-  nameWithType: BasicDataExtends.ToLowerUpgraded(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded*
-  name: ToLowerUpgraded
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToLowerUpgraded_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToLowerUpgraded
-  nameWithType: BasicDataExtends.ToLowerUpgraded
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToString(System.Object)
-  name: ToString(Object)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToString_System_Object_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToString(System.Object)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToString(System.Object)
-  nameWithType: BasicDataExtends.ToString(Object)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToString*
-  name: ToString
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToString_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToString
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToString
-  nameWithType: BasicDataExtends.ToString
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded(System.String)
-  name: ToUpperUpgraded(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToUpperUpgraded_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded(System.String)
-  nameWithType: BasicDataExtends.ToUpperUpgraded(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded*
-  name: ToUpperUpgraded
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_ToUpperUpgraded_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.ToUpperUpgraded
-  nameWithType: BasicDataExtends.ToUpperUpgraded
-- uid: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String)
-  name: TrimUpgraded(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_TrimUpgraded_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String)
-  nameWithType: BasicDataExtends.TrimUpgraded(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String,System.Char)
-  name: TrimUpgraded(String, Char)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_TrimUpgraded_System_String_System_Char_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String,System.Char)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded(System.String, System.Char)
-  nameWithType: BasicDataExtends.TrimUpgraded(String, Char)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded*
-  name: TrimUpgraded
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_TrimUpgraded_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.TrimUpgraded
-  nameWithType: BasicDataExtends.TrimUpgraded
-- uid: KeMengUtils.DataHelper.BasicDataExtends.UrlDecode(System.String)
-  name: UrlDecode(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_UrlDecode_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.UrlDecode(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.UrlDecode(System.String)
-  nameWithType: BasicDataExtends.UrlDecode(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.UrlDecode*
-  name: UrlDecode
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_UrlDecode_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.UrlDecode
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.UrlDecode
-  nameWithType: BasicDataExtends.UrlDecode
-- uid: KeMengUtils.DataHelper.BasicDataExtends.UrlEncode(System.String)
-  name: UrlEncode(String)
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_UrlEncode_System_String_
-  commentId: M:KeMengUtils.DataHelper.BasicDataExtends.UrlEncode(System.String)
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.UrlEncode(System.String)
-  nameWithType: BasicDataExtends.UrlEncode(String)
-- uid: KeMengUtils.DataHelper.BasicDataExtends.UrlEncode*
-  name: UrlEncode
-  href: api/KeMengUtils.DataHelper.BasicDataExtends.html#KeMengUtils_DataHelper_BasicDataExtends_UrlEncode_
-  commentId: Overload:KeMengUtils.DataHelper.BasicDataExtends.UrlEncode
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.BasicDataExtends.UrlEncode
-  nameWithType: BasicDataExtends.UrlEncode
 - uid: KeMengUtils.DataHelper.DateTimeHelper
   name: DateTimeHelper
   href: api/KeMengUtils.DataHelper.DateTimeHelper.html
   commentId: T:KeMengUtils.DataHelper.DateTimeHelper
   fullName: KeMengUtils.DataHelper.DateTimeHelper
   nameWithType: DateTimeHelper
-- uid: KeMengUtils.DataHelper.DateTimeHelper.FirstDay(System.DateTime)
-  name: FirstDay(DateTime)
-  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_FirstDay_System_DateTime_
-  commentId: M:KeMengUtils.DataHelper.DateTimeHelper.FirstDay(System.DateTime)
-  fullName: KeMengUtils.DataHelper.DateTimeHelper.FirstDay(System.DateTime)
-  nameWithType: DateTimeHelper.FirstDay(DateTime)
-- uid: KeMengUtils.DataHelper.DateTimeHelper.FirstDay*
-  name: FirstDay
-  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_FirstDay_
-  commentId: Overload:KeMengUtils.DataHelper.DateTimeHelper.FirstDay
+- uid: KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth(System.DateTime)
+  name: FirstDayOfMonth(DateTime)
+  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_FirstDayOfMonth_System_DateTime_
+  commentId: M:KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth(System.DateTime)
+  fullName: KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth(System.DateTime)
+  nameWithType: DateTimeHelper.FirstDayOfMonth(DateTime)
+- uid: KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth*
+  name: FirstDayOfMonth
+  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_FirstDayOfMonth_
+  commentId: Overload:KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth
   isSpec: "True"
-  fullName: KeMengUtils.DataHelper.DateTimeHelper.FirstDay
-  nameWithType: DateTimeHelper.FirstDay
-- uid: KeMengUtils.DataHelper.DateTimeHelper.LastDay(System.DateTime)
-  name: LastDay(DateTime)
-  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_LastDay_System_DateTime_
-  commentId: M:KeMengUtils.DataHelper.DateTimeHelper.LastDay(System.DateTime)
-  fullName: KeMengUtils.DataHelper.DateTimeHelper.LastDay(System.DateTime)
-  nameWithType: DateTimeHelper.LastDay(DateTime)
-- uid: KeMengUtils.DataHelper.DateTimeHelper.LastDay*
-  name: LastDay
-  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_LastDay_
-  commentId: Overload:KeMengUtils.DataHelper.DateTimeHelper.LastDay
+  fullName: KeMengUtils.DataHelper.DateTimeHelper.FirstDayOfMonth
+  nameWithType: DateTimeHelper.FirstDayOfMonth
+- uid: KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth(System.DateTime)
+  name: LastDayOfMonth(DateTime)
+  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_LastDayOfMonth_System_DateTime_
+  commentId: M:KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth(System.DateTime)
+  fullName: KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth(System.DateTime)
+  nameWithType: DateTimeHelper.LastDayOfMonth(DateTime)
+- uid: KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth*
+  name: LastDayOfMonth
+  href: api/KeMengUtils.DataHelper.DateTimeHelper.html#KeMengUtils_DataHelper_DateTimeHelper_LastDayOfMonth_
+  commentId: Overload:KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth
   isSpec: "True"
-  fullName: KeMengUtils.DataHelper.DateTimeHelper.LastDay
-  nameWithType: DateTimeHelper.LastDay
+  fullName: KeMengUtils.DataHelper.DateTimeHelper.LastDayOfMonth
+  nameWithType: DateTimeHelper.LastDayOfMonth
 - uid: KeMengUtils.DataHelper.DTHelper
   name: DTHelper
   href: api/KeMengUtils.DataHelper.DTHelper.html
@@ -820,41 +457,6 @@ references:
   commentId: T:KeMengUtils.DataHelper.LinqConvert
   fullName: KeMengUtils.DataHelper.LinqConvert
   nameWithType: LinqConvert
-- uid: KeMengUtils.DataHelper.LinqConvert.ToJArray(System.Data.DataTable)
-  name: ToJArray(DataTable)
-  href: api/KeMengUtils.DataHelper.LinqConvert.html#KeMengUtils_DataHelper_LinqConvert_ToJArray_System_Data_DataTable_
-  commentId: M:KeMengUtils.DataHelper.LinqConvert.ToJArray(System.Data.DataTable)
-  fullName: KeMengUtils.DataHelper.LinqConvert.ToJArray(System.Data.DataTable)
-  nameWithType: LinqConvert.ToJArray(DataTable)
-- uid: KeMengUtils.DataHelper.LinqConvert.ToJArray*
-  name: ToJArray
-  href: api/KeMengUtils.DataHelper.LinqConvert.html#KeMengUtils_DataHelper_LinqConvert_ToJArray_
-  commentId: Overload:KeMengUtils.DataHelper.LinqConvert.ToJArray
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.LinqConvert.ToJArray
-  nameWithType: LinqConvert.ToJArray
-- uid: KeMengUtils.DataHelper.LinqConvert.ToJArray``1(System.Collections.Generic.List{``0})
-  name: ToJArray<T>(List<T>)
-  href: api/KeMengUtils.DataHelper.LinqConvert.html#KeMengUtils_DataHelper_LinqConvert_ToJArray__1_System_Collections_Generic_List___0__
-  commentId: M:KeMengUtils.DataHelper.LinqConvert.ToJArray``1(System.Collections.Generic.List{``0})
-  name.vb: ToJArray(Of T)(List(Of T))
-  fullName: KeMengUtils.DataHelper.LinqConvert.ToJArray<T>(System.Collections.Generic.List<T>)
-  fullName.vb: KeMengUtils.DataHelper.LinqConvert.ToJArray(Of T)(System.Collections.Generic.List(Of T))
-  nameWithType: LinqConvert.ToJArray<T>(List<T>)
-  nameWithType.vb: LinqConvert.ToJArray(Of T)(List(Of T))
-- uid: KeMengUtils.DataHelper.LinqConvert.ToJObject(System.Object)
-  name: ToJObject(Object)
-  href: api/KeMengUtils.DataHelper.LinqConvert.html#KeMengUtils_DataHelper_LinqConvert_ToJObject_System_Object_
-  commentId: M:KeMengUtils.DataHelper.LinqConvert.ToJObject(System.Object)
-  fullName: KeMengUtils.DataHelper.LinqConvert.ToJObject(System.Object)
-  nameWithType: LinqConvert.ToJObject(Object)
-- uid: KeMengUtils.DataHelper.LinqConvert.ToJObject*
-  name: ToJObject
-  href: api/KeMengUtils.DataHelper.LinqConvert.html#KeMengUtils_DataHelper_LinqConvert_ToJObject_
-  commentId: Overload:KeMengUtils.DataHelper.LinqConvert.ToJObject
-  isSpec: "True"
-  fullName: KeMengUtils.DataHelper.LinqConvert.ToJObject
-  nameWithType: LinqConvert.ToJObject
 - uid: KeMengUtils.DataHelper.SortData
   name: SortData
   href: api/KeMengUtils.DataHelper.SortData.html
@@ -877,6 +479,499 @@ references:
   fullName.vb: KeMengUtils.DataHelper.SortData.SortToTree(Of T)(System.Collections.Generic.List(Of T), System.Collections.Generic.List(Of T), System.Func(Of T, System.Boolean), System.Action)
   nameWithType: SortData.SortToTree<T>(List<T>, List<T>, Func<T, Boolean>, Action)
   nameWithType.vb: SortData.SortToTree(Of T)(List(Of T), List(Of T), Func(Of T, Boolean), Action)
+- uid: KeMengUtils.DataHelper.TypeConvert
+  name: TypeConvert
+  href: api/KeMengUtils.DataHelper.TypeConvert.html
+  commentId: T:KeMengUtils.DataHelper.TypeConvert
+  fullName: KeMengUtils.DataHelper.TypeConvert
+  nameWithType: TypeConvert
+- uid: KeMengUtils.DataHelper.TypeConvert.AddParam(System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  name: AddParam(String, Expression<Func<String>>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_AddParam_System_String_System_Linq_Expressions_Expression_System_Func_System_String___
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.AddParam(System.String,System.Linq.Expressions.Expression{System.Func{System.String}})
+  name.vb: AddParam(String, Expression(Of Func(Of String)))
+  fullName: KeMengUtils.DataHelper.TypeConvert.AddParam(System.String, System.Linq.Expressions.Expression<System.Func<System.String>>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.AddParam(System.String, System.Linq.Expressions.Expression(Of System.Func(Of System.String)))
+  nameWithType: TypeConvert.AddParam(String, Expression<Func<String>>)
+  nameWithType.vb: TypeConvert.AddParam(String, Expression(Of Func(Of String)))
+- uid: KeMengUtils.DataHelper.TypeConvert.AddParam*
+  name: AddParam
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_AddParam_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.AddParam
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.AddParam
+  nameWithType: TypeConvert.AddParam
+- uid: KeMengUtils.DataHelper.TypeConvert.ConvertToString*
+  name: ConvertToString
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ConvertToString_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ConvertToString
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ConvertToString
+  nameWithType: TypeConvert.ConvertToString
+- uid: KeMengUtils.DataHelper.TypeConvert.ConvertToString``1(``0)
+  name: ConvertToString<T>(T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ConvertToString__1___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ConvertToString``1(``0)
+  name.vb: ConvertToString(Of T)(T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ConvertToString<T>(T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ConvertToString(Of T)(T)
+  nameWithType: TypeConvert.ConvertToString<T>(T)
+  nameWithType.vb: TypeConvert.ConvertToString(Of T)(T)
+- uid: KeMengUtils.DataHelper.TypeConvert.GetInnermostException(System.Exception)
+  name: GetInnermostException(Exception)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_GetInnermostException_System_Exception_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.GetInnermostException(System.Exception)
+  fullName: KeMengUtils.DataHelper.TypeConvert.GetInnermostException(System.Exception)
+  nameWithType: TypeConvert.GetInnermostException(Exception)
+- uid: KeMengUtils.DataHelper.TypeConvert.GetInnermostException*
+  name: GetInnermostException
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_GetInnermostException_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.GetInnermostException
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.GetInnermostException
+  nameWithType: TypeConvert.GetInnermostException
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
+  name: IfNotNullThen(String, Func<Boolean>, Func<Boolean>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
+  name.vb: IfNotNullThen(String, Func(Of Boolean), Func(Of Boolean))
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String, System.Func<System.Boolean>, System.Func<System.Boolean>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String, System.Func(Of System.Boolean), System.Func(Of System.Boolean))
+  nameWithType: TypeConvert.IfNotNullThen(String, Func<Boolean>, Func<Boolean>)
+  nameWithType.vb: TypeConvert.IfNotNullThen(String, Func(Of Boolean), Func(Of Boolean))
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.String,System.String)
+  name: IfNotNullThen(String, String, String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_System_String_System_String_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String,System.String,System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen(System.String, System.String, System.String)
+  nameWithType: TypeConvert.IfNotNullThen(String, String, String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen*
+  name: IfNotNullThen
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNotNullThen_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IfNotNullThen
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNotNullThen
+  nameWithType: TypeConvert.IfNotNullThen
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith(System.String,System.String,System.Boolean)
+  name: IfNotNullThenEqualWith(String, String, Boolean)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNotNullThenEqualWith_System_String_System_String_System_Boolean_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith(System.String,System.String,System.Boolean)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith(System.String, System.String, System.Boolean)
+  nameWithType: TypeConvert.IfNotNullThenEqualWith(String, String, Boolean)
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith*
+  name: IfNotNullThenEqualWith
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNotNullThenEqualWith_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNotNullThenEqualWith
+  nameWithType: TypeConvert.IfNotNullThenEqualWith
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
+  name: IfNullThen(String, Func<Boolean>, Func<Boolean>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThen_System_String_System_Func_System_Boolean__System_Func_System_Boolean__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.Func{System.Boolean},System.Func{System.Boolean})
+  name.vb: IfNullThen(String, Func(Of Boolean), Func(Of Boolean))
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String, System.Func<System.Boolean>, System.Func<System.Boolean>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String, System.Func(Of System.Boolean), System.Func(Of System.Boolean))
+  nameWithType: TypeConvert.IfNullThen(String, Func<Boolean>, Func<Boolean>)
+  nameWithType.vb: TypeConvert.IfNullThen(String, Func(Of Boolean), Func(Of Boolean))
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.String,System.String)
+  name: IfNullThen(String, String, String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThen_System_String_System_String_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String,System.String,System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNullThen(System.String, System.String, System.String)
+  nameWithType: TypeConvert.IfNullThen(String, String, String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNullThen*
+  name: IfNullThen
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThen_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IfNullThen
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNullThen
+  nameWithType: TypeConvert.IfNullThen
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith(System.String,System.String,System.Boolean)
+  name: IfNullThenEqualWith(String, String, Boolean)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThenEqualWith_System_String_System_String_System_Boolean_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith(System.String,System.String,System.Boolean)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith(System.String, System.String, System.Boolean)
+  nameWithType: TypeConvert.IfNullThenEqualWith(String, String, Boolean)
+- uid: KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith*
+  name: IfNullThenEqualWith
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IfNullThenEqualWith_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IfNullThenEqualWith
+  nameWithType: TypeConvert.IfNullThenEqualWith
+- uid: KeMengUtils.DataHelper.TypeConvert.IsDateTime(System.String)
+  name: IsDateTime(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsDateTime_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsDateTime(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsDateTime(System.String)
+  nameWithType: TypeConvert.IsDateTime(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsDateTime*
+  name: IsDateTime
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsDateTime_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsDateTime
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsDateTime
+  nameWithType: TypeConvert.IsDateTime
+- uid: KeMengUtils.DataHelper.TypeConvert.IsInt32(System.String)
+  name: IsInt32(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsInt32_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsInt32(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsInt32(System.String)
+  nameWithType: TypeConvert.IsInt32(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsInt32*
+  name: IsInt32
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsInt32_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsInt32
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsInt32
+  nameWithType: TypeConvert.IsInt32
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNotNull(System.Object)
+  name: IsNotNull(Object)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNotNull_System_Object_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNotNull(System.Object)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNotNull(System.Object)
+  nameWithType: TypeConvert.IsNotNull(Object)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNotNull*
+  name: IsNotNull
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNotNull_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNotNull
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNotNull
+  nameWithType: TypeConvert.IsNotNull
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite(System.String)
+  name: IsNotNullOrWhite(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNotNullOrWhite_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite(System.String)
+  nameWithType: TypeConvert.IsNotNullOrWhite(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite*
+  name: IsNotNullOrWhite
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNotNullOrWhite_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNotNullOrWhite
+  nameWithType: TypeConvert.IsNotNullOrWhite
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNull(System.Collections.Generic.IEnumerable{System.String})
+  name: IsNull(IEnumerable<String>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNull_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNull(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: IsNull(IEnumerable(Of String))
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNull(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IsNull(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: TypeConvert.IsNull(IEnumerable<String>)
+  nameWithType.vb: TypeConvert.IsNull(IEnumerable(Of String))
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNull(System.Object)
+  name: IsNull(Object)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNull_System_Object_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNull(System.Object)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNull(System.Object)
+  nameWithType: TypeConvert.IsNull(Object)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNull*
+  name: IsNull
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNull_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNull
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNull
+  nameWithType: TypeConvert.IsNull
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(System.Collections.Generic.IEnumerable{System.String})
+  name: IsNullOrEmpty(IEnumerable<String>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: IsNullOrEmpty(IEnumerable(Of String))
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: TypeConvert.IsNullOrEmpty(IEnumerable<String>)
+  nameWithType.vb: TypeConvert.IsNullOrEmpty(IEnumerable(Of String))
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty*
+  name: IsNullOrEmpty
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty
+  nameWithType: TypeConvert.IsNullOrEmpty
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name: IsNullOrEmpty<T>(IEnumerable<T>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrEmpty__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: IsNullOrEmpty(Of T)(IEnumerable(Of T))
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IsNullOrEmpty(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TypeConvert.IsNullOrEmpty<T>(IEnumerable<T>)
+  nameWithType.vb: TypeConvert.IsNullOrEmpty(Of T)(IEnumerable(Of T))
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite(System.String)
+  name: IsNullOrWhite(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrWhite_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite(System.String)
+  nameWithType: TypeConvert.IsNullOrWhite(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite*
+  name: IsNullOrWhite
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullOrWhite_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullOrWhite
+  nameWithType: TypeConvert.IsNullOrWhite
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullThen*
+  name: IsNullThen
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullThen_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.IsNullThen
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullThen
+  nameWithType: TypeConvert.IsNullThen
+- uid: KeMengUtils.DataHelper.TypeConvert.IsNullThen``1(System.String,``0,``0)
+  name: IsNullThen<T>(String, T, T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_IsNullThen__1_System_String___0___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.IsNullThen``1(System.String,``0,``0)
+  name.vb: IsNullThen(Of T)(String, T, T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.IsNullThen<T>(System.String, T, T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.IsNullThen(Of T)(System.String, T, T)
+  nameWithType: TypeConvert.IsNullThen<T>(String, T, T)
+  nameWithType.vb: TypeConvert.IsNullThen(Of T)(String, T, T)
+- uid: KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull(System.Object[])
+  name: ObjectsIsNull(Object[])
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ObjectsIsNull_System_Object___
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull(System.Object[])
+  name.vb: ObjectsIsNull(Object())
+  fullName: KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull(System.Object[])
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull(System.Object())
+  nameWithType: TypeConvert.ObjectsIsNull(Object[])
+  nameWithType.vb: TypeConvert.ObjectsIsNull(Object())
+- uid: KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull*
+  name: ObjectsIsNull
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ObjectsIsNull_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ObjectsIsNull
+  nameWithType: TypeConvert.ObjectsIsNull
+- uid: KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite(System.String[])
+  name: StringsIsNullOrWhite(String[])
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_StringsIsNullOrWhite_System_String___
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite(System.String[])
+  name.vb: StringsIsNullOrWhite(String())
+  fullName: KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite(System.String[])
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite(System.String())
+  nameWithType: TypeConvert.StringsIsNullOrWhite(String[])
+  nameWithType.vb: TypeConvert.StringsIsNullOrWhite(String())
+- uid: KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite*
+  name: StringsIsNullOrWhite
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_StringsIsNullOrWhite_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.StringsIsNullOrWhite
+  nameWithType: TypeConvert.StringsIsNullOrWhite
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDateTime(System.String)
+  name: ToDateTime(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDateTime_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToDateTime(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDateTime(System.String)
+  nameWithType: TypeConvert.ToDateTime(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDateTime*
+  name: ToDateTime
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDateTime_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToDateTime
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDateTime
+  nameWithType: TypeConvert.ToDateTime
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDecimal*
+  name: ToDecimal
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDecimal_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToDecimal
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDecimal
+  nameWithType: TypeConvert.ToDecimal
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDecimal``1(``0)
+  name: ToDecimal<T>(T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDecimal__1___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToDecimal``1(``0)
+  name.vb: ToDecimal(Of T)(T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDecimal<T>(T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToDecimal(Of T)(T)
+  nameWithType: TypeConvert.ToDecimal<T>(T)
+  nameWithType.vb: TypeConvert.ToDecimal(Of T)(T)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDouble*
+  name: ToDouble
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDouble_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToDouble
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDouble
+  nameWithType: TypeConvert.ToDouble
+- uid: KeMengUtils.DataHelper.TypeConvert.ToDouble``1(``0)
+  name: ToDouble<T>(T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToDouble__1___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToDouble``1(``0)
+  name.vb: ToDouble(Of T)(T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToDouble<T>(T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToDouble(Of T)(T)
+  nameWithType: TypeConvert.ToDouble<T>(T)
+  nameWithType.vb: TypeConvert.ToDouble(Of T)(T)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToInt32*
+  name: ToInt32
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToInt32_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToInt32
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToInt32
+  nameWithType: TypeConvert.ToInt32
+- uid: KeMengUtils.DataHelper.TypeConvert.ToInt32``1(``0)
+  name: ToInt32<T>(T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToInt32__1___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToInt32``1(``0)
+  name.vb: ToInt32(Of T)(T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToInt32<T>(T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToInt32(Of T)(T)
+  nameWithType: TypeConvert.ToInt32<T>(T)
+  nameWithType.vb: TypeConvert.ToInt32(Of T)(T)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJArray(System.Data.DataTable)
+  name: ToJArray(DataTable)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJArray_System_Data_DataTable_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToJArray(System.Data.DataTable)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJArray(System.Data.DataTable)
+  nameWithType: TypeConvert.ToJArray(DataTable)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJArray*
+  name: ToJArray
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJArray_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToJArray
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJArray
+  nameWithType: TypeConvert.ToJArray
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJArray``1(System.Collections.Generic.IEnumerable{``0})
+  name: ToJArray<T>(IEnumerable<T>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJArray__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToJArray``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: ToJArray(Of T)(IEnumerable(Of T))
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJArray<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToJArray(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: TypeConvert.ToJArray<T>(IEnumerable<T>)
+  nameWithType.vb: TypeConvert.ToJArray(Of T)(IEnumerable(Of T))
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJObject*
+  name: ToJObject
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJObject_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToJObject
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJObject
+  nameWithType: TypeConvert.ToJObject
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJObject``1(``0)
+  name: ToJObject<T>(T)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJObject__1___0_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToJObject``1(``0)
+  name.vb: ToJObject(Of T)(T)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJObject<T>(T)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToJObject(Of T)(T)
+  nameWithType: TypeConvert.ToJObject<T>(T)
+  nameWithType.vb: TypeConvert.ToJObject(Of T)(T)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJsonString*
+  name: ToJsonString
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJsonString_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToJsonString
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJsonString
+  nameWithType: TypeConvert.ToJsonString
+- uid: KeMengUtils.DataHelper.TypeConvert.ToJsonString``1(``0,System.Boolean)
+  name: ToJsonString<T>(T, Boolean)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToJsonString__1___0_System_Boolean_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToJsonString``1(``0,System.Boolean)
+  name.vb: ToJsonString(Of T)(T, Boolean)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToJsonString<T>(T, System.Boolean)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToJsonString(Of T)(T, System.Boolean)
+  nameWithType: TypeConvert.ToJsonString<T>(T, Boolean)
+  nameWithType.vb: TypeConvert.ToJsonString(Of T)(T, Boolean)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded(System.String)
+  name: ToLowerUpgraded(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToLowerUpgraded_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded(System.String)
+  nameWithType: TypeConvert.ToLowerUpgraded(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded*
+  name: ToLowerUpgraded
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToLowerUpgraded_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToLowerUpgraded
+  nameWithType: TypeConvert.ToLowerUpgraded
+- uid: KeMengUtils.DataHelper.TypeConvert.ToObject*
+  name: ToObject
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToObject_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToObject
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToObject
+  nameWithType: TypeConvert.ToObject
+- uid: KeMengUtils.DataHelper.TypeConvert.ToObject``1(System.String)
+  name: ToObject<T>(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToObject__1_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToObject``1(System.String)
+  name.vb: ToObject(Of T)(String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToObject<T>(System.String)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.ToObject(Of T)(System.String)
+  nameWithType: TypeConvert.ToObject<T>(String)
+  nameWithType.vb: TypeConvert.ToObject(Of T)(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded(System.String)
+  name: ToUpperUpgraded(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToUpperUpgraded_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded(System.String)
+  nameWithType: TypeConvert.ToUpperUpgraded(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded*
+  name: ToUpperUpgraded
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_ToUpperUpgraded_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.ToUpperUpgraded
+  nameWithType: TypeConvert.ToUpperUpgraded
+- uid: KeMengUtils.DataHelper.TypeConvert.TrimUpgraded(System.String,System.Char)
+  name: TrimUpgraded(String, Char)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_TrimUpgraded_System_String_System_Char_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.TrimUpgraded(System.String,System.Char)
+  fullName: KeMengUtils.DataHelper.TypeConvert.TrimUpgraded(System.String, System.Char)
+  nameWithType: TypeConvert.TrimUpgraded(String, Char)
+- uid: KeMengUtils.DataHelper.TypeConvert.TrimUpgraded*
+  name: TrimUpgraded
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_TrimUpgraded_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.TrimUpgraded
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.TrimUpgraded
+  nameWithType: TypeConvert.TrimUpgraded
+- uid: KeMengUtils.DataHelper.TypeConvert.UrlDecode(System.String)
+  name: UrlDecode(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_UrlDecode_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.UrlDecode(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.UrlDecode(System.String)
+  nameWithType: TypeConvert.UrlDecode(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.UrlDecode*
+  name: UrlDecode
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_UrlDecode_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.UrlDecode
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.UrlDecode
+  nameWithType: TypeConvert.UrlDecode
+- uid: KeMengUtils.DataHelper.TypeConvert.UrlEncode(System.String)
+  name: UrlEncode(String)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_UrlEncode_System_String_
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.UrlEncode(System.String)
+  fullName: KeMengUtils.DataHelper.TypeConvert.UrlEncode(System.String)
+  nameWithType: TypeConvert.UrlEncode(String)
+- uid: KeMengUtils.DataHelper.TypeConvert.UrlEncode*
+  name: UrlEncode
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_UrlEncode_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.UrlEncode
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.UrlEncode
+  nameWithType: TypeConvert.UrlEncode
+- uid: KeMengUtils.DataHelper.TypeConvert.VariableName(System.Linq.Expressions.Expression{System.Func{System.String}})
+  name: VariableName(Expression<Func<String>>)
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_VariableName_System_Linq_Expressions_Expression_System_Func_System_String___
+  commentId: M:KeMengUtils.DataHelper.TypeConvert.VariableName(System.Linq.Expressions.Expression{System.Func{System.String}})
+  name.vb: VariableName(Expression(Of Func(Of String)))
+  fullName: KeMengUtils.DataHelper.TypeConvert.VariableName(System.Linq.Expressions.Expression<System.Func<System.String>>)
+  fullName.vb: KeMengUtils.DataHelper.TypeConvert.VariableName(System.Linq.Expressions.Expression(Of System.Func(Of System.String)))
+  nameWithType: TypeConvert.VariableName(Expression<Func<String>>)
+  nameWithType.vb: TypeConvert.VariableName(Expression(Of Func(Of String)))
+- uid: KeMengUtils.DataHelper.TypeConvert.VariableName*
+  name: VariableName
+  href: api/KeMengUtils.DataHelper.TypeConvert.html#KeMengUtils_DataHelper_TypeConvert_VariableName_
+  commentId: Overload:KeMengUtils.DataHelper.TypeConvert.VariableName
+  isSpec: "True"
+  fullName: KeMengUtils.DataHelper.TypeConvert.VariableName
+  nameWithType: TypeConvert.VariableName
 - uid: KeMengUtils.LocationHelper
   name: KeMengUtils.LocationHelper
   href: api/KeMengUtils.LocationHelper.html
@@ -1192,3 +1287,83 @@ references:
   isSpec: "True"
   fullName: KeMengUtils.RegexHelper.CommonRegexs.OnlyNumberBetweenMN
   nameWithType: CommonRegexs.OnlyNumberBetweenMN
+- uid: KeMengUtils.ThrowEx
+  name: KeMengUtils.ThrowEx
+  href: api/KeMengUtils.ThrowEx.html
+  commentId: N:KeMengUtils.ThrowEx
+  fullName: KeMengUtils.ThrowEx
+  nameWithType: KeMengUtils.ThrowEx
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException
+  name: ExpressionIsNotTureException
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html
+  commentId: T:KeMengUtils.ThrowEx.ExpressionIsNotTureException
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException
+  nameWithType: ExpressionIsNotTureException
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.String)
+  name: ExpressionIsNotTureException(String)
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html#KeMengUtils_ThrowEx_ExpressionIsNotTureException__ctor_System_String_
+  commentId: M:KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.String)
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException.ExpressionIsNotTureException(System.String)
+  nameWithType: ExpressionIsNotTureException.ExpressionIsNotTureException(String)
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.String,System.Exception)
+  name: ExpressionIsNotTureException(String, Exception)
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html#KeMengUtils_ThrowEx_ExpressionIsNotTureException__ctor_System_String_System_Exception_
+  commentId: M:KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.String,System.Exception)
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException.ExpressionIsNotTureException(System.String, System.Exception)
+  nameWithType: ExpressionIsNotTureException.ExpressionIsNotTureException(String, Exception)
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.Type)
+  name: ExpressionIsNotTureException(Type)
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html#KeMengUtils_ThrowEx_ExpressionIsNotTureException__ctor_System_Type_
+  commentId: M:KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.Type)
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException.ExpressionIsNotTureException(System.Type)
+  nameWithType: ExpressionIsNotTureException.ExpressionIsNotTureException(Type)
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.Type,System.Exception)
+  name: ExpressionIsNotTureException(Type, Exception)
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html#KeMengUtils_ThrowEx_ExpressionIsNotTureException__ctor_System_Type_System_Exception_
+  commentId: M:KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor(System.Type,System.Exception)
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException.ExpressionIsNotTureException(System.Type, System.Exception)
+  nameWithType: ExpressionIsNotTureException.ExpressionIsNotTureException(Type, Exception)
+- uid: KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor*
+  name: ExpressionIsNotTureException
+  href: api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html#KeMengUtils_ThrowEx_ExpressionIsNotTureException__ctor_
+  commentId: Overload:KeMengUtils.ThrowEx.ExpressionIsNotTureException.#ctor
+  isSpec: "True"
+  fullName: KeMengUtils.ThrowEx.ExpressionIsNotTureException.ExpressionIsNotTureException
+  nameWithType: ExpressionIsNotTureException.ExpressionIsNotTureException
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException
+  name: StringIsNotTartgetFormatException
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html
+  commentId: T:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException
+  nameWithType: StringIsNotTartgetFormatException
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String)
+  name: StringIsNotTartgetFormatException(String)
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html#KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_String_
+  commentId: M:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String)
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(System.String)
+  nameWithType: StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(String)
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String,System.Exception)
+  name: StringIsNotTartgetFormatException(String, Exception)
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html#KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_String_System_Exception_
+  commentId: M:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.String,System.Exception)
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(System.String, System.Exception)
+  nameWithType: StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(String, Exception)
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type)
+  name: StringIsNotTartgetFormatException(Type)
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html#KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_Type_
+  commentId: M:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type)
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(System.Type)
+  nameWithType: StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(Type)
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type,System.Exception)
+  name: StringIsNotTartgetFormatException(Type, Exception)
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html#KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_System_Type_System_Exception_
+  commentId: M:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor(System.Type,System.Exception)
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(System.Type, System.Exception)
+  nameWithType: StringIsNotTartgetFormatException.StringIsNotTartgetFormatException(Type, Exception)
+- uid: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor*
+  name: StringIsNotTartgetFormatException
+  href: api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html#KeMengUtils_ThrowEx_StringIsNotTartgetFormatException__ctor_
+  commentId: Overload:KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.#ctor
+  isSpec: "True"
+  fullName: KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.StringIsNotTartgetFormatException
+  nameWithType: StringIsNotTartgetFormatException.StringIsNotTartgetFormatException

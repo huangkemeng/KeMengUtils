@@ -1,27 +1,15 @@
 {
   "homepages": [],
-  "source_base_path": "F:/代码/我的项目/KeMengUtils/KeMengUtilsDoc",
+  "source_base_path": "F:/VSRepos/我的/KeMengUtils/KeMengUtilsDoc",
   "xrefmap": "xrefmap.yml",
   "files": [
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/KeMengUtils.DataHelper.BasicDataExtends.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/KeMengUtils.DataHelper.BasicDataExtends.html",
-          "hash": "5HC1k7k/Y5C5d6Z0hEnbfA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/KeMengUtils.DataHelper.DTHelper.yml",
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.DTHelper.html",
-          "hash": "aC5HGN5MkRx/GPUFNIWprA=="
+          "hash": "3CuggcUUpf4WBZRbBNlcLg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.DateTimeHelper.html",
-          "hash": "TRSlBcZIT9v3DqprE3c+Vw=="
+          "hash": "w6J+Up7Hy7uhwIPHu+u5og=="
         }
       },
       "is_incremental": false,
@@ -45,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.FilesHelper.html",
-          "hash": "Xl0lX8GQxVPBkxtn0gwhAQ=="
+          "hash": "u3p4TZyQnky+Cmqm2vXisw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.LinqConvert.html",
-          "hash": "EuJXE44b4y0MgSVDokvY0w=="
+          "hash": "zgyqReailzXNtlybPrELWA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +57,22 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.SortData.html",
-          "hash": "dmu2OT2Ia07yUnsMQ62Nog=="
+          "hash": "/CD3TgoOcQEQge9YjaMSpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "ReferencedXrefPropertyNotString"
+      ],
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.DataHelper.TypeConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.DataHelper.TypeConvert.html",
+          "hash": "+HWsE63U9JyECCeRbYnNLg=="
         }
       },
       "is_incremental": false,
@@ -81,7 +84,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.DataHelper.html",
-          "hash": "F+EwXXxrcPWhsxuggQorFg=="
+          "hash": "mJntzcv2TeASCeDuqP/0Cg=="
         }
       },
       "is_incremental": false,
@@ -93,7 +96,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.LocationHelper.LocationService.html",
-          "hash": "poGDfH7JZikT4Ik6Cttk7g=="
+          "hash": "rNSjj8ZpeaO0ufT0BOIv3g=="
         }
       },
       "is_incremental": false,
@@ -105,7 +108,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.LocationHelper.Models.LocationInfo.html",
-          "hash": "sI7CNM9AAF27PZFK5LNPCg=="
+          "hash": "9eSp9dwGrjQ7038WqFBmCQ=="
         }
       },
       "is_incremental": false,
@@ -117,7 +120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.LocationHelper.Models.QQMapParams.html",
-          "hash": "zTYRiCZ0mkjj9bdZVnxlqg=="
+          "hash": "cIieAAQacqHQa6zPYHf6Ww=="
         }
       },
       "is_incremental": false,
@@ -129,7 +132,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.LocationHelper.Models.html",
-          "hash": "Y2hk+7+5zFgCJ20i+EzIqQ=="
+          "hash": "izTh6nm6PpUHn3k+E3BCrw=="
         }
       },
       "is_incremental": false,
@@ -141,7 +144,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.LocationHelper.html",
-          "hash": "6xTY9TTW7AHoR8spy/p1jw=="
+          "hash": "v9F5kfJphNvSQ3rkHpDq7Q=="
         }
       },
       "is_incremental": false,
@@ -153,7 +156,7 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.RegexHelper.CommonRegexs.html",
-          "hash": "qy59JvKt5dcggE5AZhgpKA=="
+          "hash": "TIIl9JA0HhDrkx6t/WraIw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +168,43 @@
       "output": {
         ".html": {
           "relative_path": "api/KeMengUtils.RegexHelper.html",
-          "hash": "8N4IIFVO6Wt+6nFfYE+1HA=="
+          "hash": "zkxlv29qRKPAFwJrLcyEJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.ThrowEx.ExpressionIsNotTureException.html",
+          "hash": "ea/KTuINpzjqHWbinaskSQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.ThrowEx.StringIsNotTartgetFormatException.html",
+          "hash": "Pm81XcCekoDLpM0+fJwuzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/KeMengUtils.ThrowEx.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/KeMengUtils.ThrowEx.html",
+          "hash": "tfND/HEDc40cFmuJ3i8DuA=="
         }
       },
       "is_incremental": false,
@@ -177,7 +216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "IWSb6B/6lGYRPQ4WhMFrGQ=="
+          "hash": "NqwA7Jt8E6fzE4GrutoQiw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "5JbruQOWFgNoDuB2gXndtA=="
+          "hash": "mV3CWLmaM+piCGDHT+nOpw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +240,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "2kd9qJreYOgyX+B0zOzxgQ=="
+          "hash": "bcTPg+uhS+XfhW7IeUi3BQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +264,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "nGMmOdiPg3X/9UUnkDXV4A=="
+          "hash": "rxPppQ0n++rMc/khTjSq5w=="
         }
       },
       "is_incremental": false,
@@ -265,7 +304,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 14,
+          "total_file_count": 17,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {

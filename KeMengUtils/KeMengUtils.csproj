@@ -8,6 +8,8 @@
     <Description>通用的帮助类</Description>
     <PackageReleaseNotes>非商业的产品</PackageReleaseNotes>
     <PackageId>KeMeng.Utils</PackageId>
+    <Version>1.0.2</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>

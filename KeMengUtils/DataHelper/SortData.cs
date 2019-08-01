@@ -15,7 +15,7 @@ namespace KeMengUtils.DataHelper
         /// </summary>
         /// <typeparam name="T">对象类型</typeparam>
         /// <param name="parents">父级对象</param>
-        /// <param name="origin">清楚重复后的对象</param>
+        /// <param name="origin">清除已整理的对象</param>
         /// <param name="func">条件</param>
         /// <param name="do">执行整理操作</param>
         /// <returns></returns>
