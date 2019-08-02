@@ -55,7 +55,7 @@ namespace KeMengUtils.Test
         [InlineData(false, "x", "x")]
         public void StringsIsNullOrWhiteTest(bool exp, params string[] strs)
         {
-            bool result = TypeConvert.StringsIsNullOrWhite(strs);
+            bool result = TypeConverter.StringsIsNullOrWhite(strs);
             Assert.Equal(exp, result);
         }
 
@@ -89,10 +89,13 @@ namespace KeMengUtils.Test
         }
 
         [Fact]
-        public void ToJArrayTest()
+        public void VariableNameTest()
         {
-            List<string> a = new List<string> { "1", "2" }; ;
-            var b = a.ToJArray();
+            string v = "1";
+            string v_name = "v";
+            string result_name = TypeConverter.VariableName(() => v);
+            Assert.Equal(v_name, result_name);
         }
+
     }
 }

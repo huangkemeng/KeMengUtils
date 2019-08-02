@@ -108,7 +108,7 @@
   <h6><strong>Assembly</strong>: KeMengUtils.dll</h6>
   <h5 id="KeMengUtils_RegexHelper_CommonRegexs_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class CommonRegexs</code></pre>
+    <pre><code class="lang-csharp hljs">public class CommonRegexs</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -121,7 +121,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Regex AtLeastMNumber(int m)</code></pre>
+    <pre><code class="lang-csharp hljs">public Regex AtLeastMNumber(int m)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,6 +158,31 @@
   </table>
   
   
+  <a id="KeMengUtils_RegexHelper_CommonRegexs_GetInstance_" data-uid="KeMengUtils.RegexHelper.CommonRegexs.GetInstance*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CommonRegexs_GetInstance" data-uid="KeMengUtils.RegexHelper.CommonRegexs.GetInstance">GetInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CommonRegexs GetInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KeMengUtils.RegexHelper.CommonRegexs.html">CommonRegexs</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="KeMengUtils_RegexHelper_CommonRegexs_OnlyMNumber_" data-uid="KeMengUtils.RegexHelper.CommonRegexs.OnlyMNumber*"></a>
   <h4 id="KeMengUtils_RegexHelper_CommonRegexs_OnlyMNumber_System_Int32_" data-uid="KeMengUtils.RegexHelper.CommonRegexs.OnlyMNumber(System.Int32)">OnlyMNumber(Int32)</h4>
   <div class="markdown level1 summary"><p>全部都是数字，且字符个数为m</p>
@@ -165,7 +190,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Regex OnlyMNumber(int m)</code></pre>
+    <pre><code class="lang-csharp hljs">public Regex OnlyMNumber(int m)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,7 +234,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Regex OnlyNumber()</code></pre>
+    <pre><code class="lang-csharp hljs">public Regex OnlyNumber()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,7 +260,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Regex OnlyNumberBetweenMN(int m, int n)</code></pre>
+    <pre><code class="lang-csharp hljs">public Regex OnlyNumberBetweenMN(int m, int n)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,6 +301,40 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toInt32_System_Object_">DTHelper.toInt32(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toDecimal_System_Object_">DTHelper.toDecimal(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toDateTime_System_Object_">DTHelper.toDateTime(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_IsNull_System_Object_">TypeConverter.IsNull(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_IsNotNull_System_Object_">TypeConverter.IsNotNull(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToDecimal__1___0_">TypeConverter.ToDecimal&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ConvertToString__1___0_">TypeConverter.ConvertToString&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToInt32__1___0_">TypeConverter.ToInt32&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToDouble__1___0_">TypeConverter.ToDouble&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToJsonString__1___0_System_Boolean_">TypeConverter.ToJsonString&lt;T&gt;(T, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToJObject__1___0_">TypeConverter.ToJObject&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           

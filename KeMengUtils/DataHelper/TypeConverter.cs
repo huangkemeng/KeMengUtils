@@ -13,7 +13,7 @@ namespace KeMengUtils.DataHelper
     /// <summary>
     /// 基础数据拓展类
     /// </summary>
-    public static class TypeConvert
+    public static class TypeConverter
     {
         /// <summary>
         /// 字符串转换为日期时
@@ -271,7 +271,7 @@ namespace KeMengUtils.DataHelper
         /// <summary>
         /// 获取一个字符串变量的变量名
         /// </summary>
-        /// <param name="Expression"><see cref="MemberExpression"/>成员表达式</param>
+        /// <param name="Expression"><see cref="Expression{Func{string}}"/>成员表达式</param>
         /// <returns><see cref="string"/></returns>
         public static string VariableName(this Expression<Func<string>> @Expression)
         {
@@ -281,8 +281,7 @@ namespace KeMengUtils.DataHelper
             }
             else
             {
-                MemberExpression memberExpression = @Expression.Body as MemberExpression;
-                if (memberExpression == null)
+                if (!(@Expression.Body is MemberExpression memberExpression))
                 {
                     throw new InvalidCastException("无法将传入的表达式转换成MemberExpression");
                 }
@@ -527,5 +526,6 @@ namespace KeMengUtils.DataHelper
                 throw new InvalidCastException($"类型{typeof(DataTable).Name}无法转换成类型{typeof(JArray).Name}", ex.GetInnermostException());
             }
         }
+
     }
 }

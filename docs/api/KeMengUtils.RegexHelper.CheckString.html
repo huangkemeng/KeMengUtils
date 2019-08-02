@@ -1,0 +1,986 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CheckString
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CheckString
+   ">
+    <meta name="generator" content="docfx 2.43.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="KeMengUtils.RegexHelper.CheckString">
+  
+  
+  <h1 id="KeMengUtils_RegexHelper_CheckString" data-uid="KeMengUtils.RegexHelper.CheckString" class="text-break">Class CheckString
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CheckString</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="KeMengUtils.RegexHelper.html">KeMengUtils.RegexHelper</a></h6>
+  <h6><strong>Assembly</strong>: KeMengUtils.dll</h6>
+  <h5 id="KeMengUtils_RegexHelper_CheckString_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CheckString</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_GetCount_" data-uid="KeMengUtils.RegexHelper.CheckString.GetCount*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_GetCount_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.GetCount(System.String)">GetCount(String)</h4>
+  <div class="markdown level1 summary"><p>计算字符串的字符长度，一个汉字字符将被计算为两个字符</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetCount(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>需要计算的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>返回字符串的长度</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_GetInstance_" data-uid="KeMengUtils.RegexHelper.CheckString.GetInstance*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_GetInstance" data-uid="KeMengUtils.RegexHelper.CheckString.GetInstance">GetInstance()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CheckString GetInstance()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="KeMengUtils.RegexHelper.CheckString.html">CheckString</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_GetStringCount_" data-uid="KeMengUtils.RegexHelper.CheckString.GetStringCount*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_GetStringCount_System_String_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.GetStringCount(System.String,System.String)">GetStringCount(String, String)</h4>
+  <div class="markdown level1 summary"><p>判断字符串compare 在 input字符串中出现的次数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetStringCount(string input, string compare)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>源字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">compare</span></td>
+        <td><p>用于比较的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>字符串compare 在 input字符串中出现的次数</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsChineseCh_" data-uid="KeMengUtils.RegexHelper.CheckString.IsChineseCh*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsChineseCh_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsChineseCh(System.String)">IsChineseCh(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串只包含汉字</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChineseCh(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsEmail_" data-uid="KeMengUtils.RegexHelper.CheckString.IsEmail*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsEmail_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsEmail(System.String)">IsEmail(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否是一个合法的Email地址</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEmail(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsEnglisCh_" data-uid="KeMengUtils.RegexHelper.CheckString.IsEnglisCh*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsEnglisCh_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsEnglisCh(System.String)">IsEnglisCh(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串字包含英文字母</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsEnglisCh(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsIPv4_" data-uid="KeMengUtils.RegexHelper.CheckString.IsIPv4*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsIPv4_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsIPv4(System.String)">IsIPv4(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否是表示一个IP地址</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIPv4(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>被比较的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>是IP地址则为True</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsIPV6_" data-uid="KeMengUtils.RegexHelper.CheckString.IsIPV6*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsIPV6_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsIPV6(System.String)">IsIPV6(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否是合法的IPV6 地址</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsIPV6(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsMatch_" data-uid="KeMengUtils.RegexHelper.CheckString.IsMatch*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsMatch_System_String_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsMatch(System.String,System.String)">IsMatch(String, String)</h4>
+  <div class="markdown level1 summary"><p>调用Regex中IsMatch函数实现一般的正则表达式匹配</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMatch(string pattern, string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td><p>要匹配的正则表达式模式。</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>要搜索匹配项的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>如果正则表达式找到匹配项，则为 true；否则，为 false。</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsMobilePhone_" data-uid="KeMengUtils.RegexHelper.CheckString.IsMobilePhone*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsMobilePhone_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsMobilePhone(System.String)">IsMobilePhone(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否是一个合法的手机号</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsMobilePhone(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsNotNagtive_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNotNagtive*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsNotNagtive_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNotNagtive(System.String)">IsNotNagtive(String)</h4>
+  <div class="markdown level1 summary"><p>匹配非负整数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNotNagtive(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsNumAndEnCh_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNumAndEnCh*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsNumAndEnCh_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNumAndEnCh(System.String)">IsNumAndEnCh(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否只包含数字和英文字母</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNumAndEnCh(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsNumber_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNumber*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsNumber_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsNumber(System.String)">IsNumber(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串只包含数字
+可以匹配整数和浮点数
+^-?\d+$|^(-?\d+)(.\d+)?$</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNumber(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsPhone_" data-uid="KeMengUtils.RegexHelper.CheckString.IsPhone*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsPhone_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsPhone(System.String)">IsPhone(String)</h4>
+  <div class="markdown level1 summary"><p>匹配3位或4位区号的电话号码，其中区号可以用小括号括起来，
+也可以不用，区号与本地号间可以用连字号或空格间隔，
+也可以没有间隔
+(0\d{2})[- ]?\d{8}|0\d{2}[- ]?\d{8}|(0\d{3})[- ]?\d{7}|0\d{3}[- ]?\d{7}</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPhone(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsUint_" data-uid="KeMengUtils.RegexHelper.CheckString.IsUint*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsUint_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsUint(System.String)">IsUint(String)</h4>
+  <div class="markdown level1 summary"><p>匹配正整数</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsUint(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_IsURL_" data-uid="KeMengUtils.RegexHelper.CheckString.IsURL*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_IsURL_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.IsURL(System.String)">IsURL(String)</h4>
+  <div class="markdown level1 summary"><p>判断输入的字符串是否是一个超链接</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsURL(string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_Replace_" data-uid="KeMengUtils.RegexHelper.CheckString.Replace*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_Replace_System_String_System_String_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.Replace(System.String,System.String,System.String)">Replace(String, String, String)</h4>
+  <div class="markdown level1 summary"><p>从输入字符串中的第一个字符开始，用替换字符串替换指定的正则表达式模式的所有匹配项。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Replace(string pattern, string input, string replacement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td><p>模式字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>输入字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">replacement</span></td>
+        <td><p>用于替换的字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>返回被替换后的结果</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="KeMengUtils_RegexHelper_CheckString_Split_" data-uid="KeMengUtils.RegexHelper.CheckString.Split*"></a>
+  <h4 id="KeMengUtils_RegexHelper_CheckString_Split_System_String_System_String_" data-uid="KeMengUtils.RegexHelper.CheckString.Split(System.String,System.String)">Split(String, String)</h4>
+  <div class="markdown level1 summary"><p>在由正则表达式模式定义的位置拆分输入字符串。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string[] Split(string pattern, string input)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">pattern</span></td>
+        <td><p>模式字符串</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">input</span></td>
+        <td><p>输入字符串</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toInt32_System_Object_">DTHelper.toInt32(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toDecimal_System_Object_">DTHelper.toDecimal(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.DTHelper.html#KeMengUtils_DataHelper_DTHelper_toDateTime_System_Object_">DTHelper.toDateTime(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_IsNull_System_Object_">TypeConverter.IsNull(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_IsNotNull_System_Object_">TypeConverter.IsNotNull(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToDecimal__1___0_">TypeConverter.ToDecimal&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ConvertToString__1___0_">TypeConverter.ConvertToString&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToInt32__1___0_">TypeConverter.ToInt32&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToDouble__1___0_">TypeConverter.ToDouble&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToJsonString__1___0_System_Boolean_">TypeConverter.ToJsonString&lt;T&gt;(T, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="KeMengUtils.DataHelper.TypeConverter.html#KeMengUtils_DataHelper_TypeConverter_ToJObject__1___0_">TypeConverter.ToJObject&lt;T&gt;(T)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
